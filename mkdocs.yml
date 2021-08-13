@@ -1,0 +1,8 @@
+site_name: teste
+
+theme_dir: cinder
+pages:
+    - Home: docs/index.md
+
+extra:
+  collapse_toc: true
