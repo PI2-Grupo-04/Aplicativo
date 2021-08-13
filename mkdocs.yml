@@ -1,8 +1,23 @@
-site_name: teste
+site_name: Home
 
-theme_dir: cinder
-pages:
-    - Home: docs/index.md
+theme:
+  name: null
+  custom_dir: 'cinder'
 
-extra:
-  collapse_toc: true
+nav:
+    - Sobre o produto:
+      - Visão de produto: visao_produto.md
+      - Objetivos de produto e negócio: objetivos_produto_negocio.md
+      - Rich Pictures: rich_picture.md
+    - Elicitação de requisitos:
+      - Requisitos funcionais e não funcionais: requisitos/requisitos.md
+      - MoScoW: requisitos/moscow.md
+      - First Things First: requisitos/first_things.md
+      - NFR: requisitos/nfr.md
+      - Especificação suplementar: requisitos/especificacao.md
+    - Protótipos:
+      - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
+      - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
+
+
+
