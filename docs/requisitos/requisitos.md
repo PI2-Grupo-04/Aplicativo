@@ -6,19 +6,21 @@
 | ---------- |------| --------- | -------- |
 | 13.08.2021 | 0.1  | Criação do documento | Bruna Almeida |
 | 15.08.2021 | 0.2  | Adiciona requisitos funcionais e não funcionais| Bruna Almeida |
-|||||
+| 16.08.2021 | 0.3  | Adiciona objetivo    | Bruna Almeida |
 
 ### Objetivo do documento
 
-<div align="justify">
-
-<br><br></div>
+<div align="justify">O objetivo do levantamento de requisitos é definir os serviços e funções que o software deve executar. O levantamento de requisitos é fundamental para uma boa execução do projeto do sistema. 
+<br><br>
+Os requisitos principais do sistema foram levantados pela equipe de software durante um Brainstorming. A técnica de brainstorming - tempestade de ideias - consiste em uma dinâmica em grupo, onde há troca de ideias, para unir informação e estimular o pensamento criativo para resolução de problemas. Durante a dinâmica, todos os integrantes da equipe expuseram sua visão do sistema e o que seria crucial para o sistema.
+<br><br>
+Posteriormente, foi aplicada a técnica de introspecção, que se baseia em imaginar que tipo de sistema eu iria querer se fosse utilizar o sistema em questão. Foi pedido que cada integrante, individualmente, se imaginasse como usuário do sistema para o robô garçom, e que listasse os requisitos funcionais e não-funcionais que achasse essencial e viável para o software.
+<br><br>
+Através das duas técnicas de elicitação empregadas, foram levantados os seguintes requisitos funcionais e não funcionais do sistema de software.
+</div>
+<br>
 
 ## Requisitos funcionais
-
-<div align="justify">
-
-<br><br></div>
 
 |  ID |Requisito|
 |-----|---------|
@@ -54,15 +56,3 @@
 |RNF008|O App deverá ser compatível com normas de acessibilidade e compatibilidade, com solução/assistência/ajuda para debilidades.|
 |RNF009|O App deverá estar de acordo com a LGPD e melhores práticas de segurança.|
 |RNF010|O sistema deverá ser capaz de receber pagamentos através dos serviços Mercado Pago e Pix.|
-
-<div align="justify">
-
-<br><br></div>
-
-### Referências
-<!-- se tiver referencias -->
-- 1
-- 2
-- 3
-
-REQUISITOS DO SISTEMA
