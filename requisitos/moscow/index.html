@@ -192,6 +192,8 @@
                 
             <li class="second-level"><a href="#moscow_1">MoScoW</a></li>
                 
+                <li class="third-level"><a href="#requisitos-funcionais">Requisitos funcionais</a></li>
+                <li class="third-level"><a href="#requisitos-nao-funcionais">Requisitos não funcionais</a></li>
                 <li class="third-level"><a href="#referencias">Referências</a></li>
     </ul>
 </div></div>
@@ -210,25 +212,25 @@
 </thead>
 <tbody>
 <tr>
-<td>00.08.2021</td>
+<td>15.08.2021</td>
 <td>0.1</td>
-<td></td>
-<td></td>
+<td>Criação do documento</td>
+<td>Damarcones Porto</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>16.08.2021</td>
+<td>0.2</td>
+<td>Adiciona objetivo do documento</td>
+<td>Damarcones Porto</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>16.08.2021</td>
+<td>0.3</td>
+<td>Adiciona MoSCoW dos requisitos</td>
+<td>Damarcones Porto</td>
 </tr>
 <tr>
-<td></td>
+<td><br></td>
 <td></td>
 <td></td>
 <td></td>
@@ -237,20 +239,179 @@
 </table>
 <h3 id="objetivo-do-documento">Objetivo do documento</h3>
 <div align="justify">
+A técnica denominada MoSCoW tem como objetivo priorizar os requisitos levantados pela equipe de software. As quatro letras da palavra MoSCoW significam, respectivamente:<br></div>
 
-<br><br></div>
-
-<h2 id="moscow_1">MoScoW</h2>
-<div align="justify">
-
-<br><br></div>
-
-<h3 id="referencias">Referências</h3>
-<!-- se tiver referencias -->
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
+<li>Must have: deve-se ter este requisito, é obrigatório.</li>
+<li>Should have: deveria ter este requisito, é menos importante que <i>Must have</i>.</li>
+<li>Could have: poderia ter este requisito.</li>
+<li>Won't Have: não terá este requisito no momento, mas pode ser implementado mais tarde.
+<br></li>
+</ul>
+<h2 id="moscow_1">MoScoW</h2>
+<h3 id="requisitos-funcionais">Requisitos funcionais</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>MoSCoW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF001</td>
+<td>O usuário poderá acessar o aplicativo sem ter login.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF002</td>
+<td>O usuário poderá visualizar o cardápio do restaurante.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF003</td>
+<td>O usuário poderá visualizar detalhes sobre um item do menu.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF004</td>
+<td>O usuário poderá adicionar um item do menu no carrinho do seu pedido.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF005</td>
+<td>O sistema deverá ser capaz de mostrar a lista de itens que o usuário adicionou ao seu pedido.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RF006</td>
+<td>O usuário poderá adicionar observações ao pedido.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RF007</td>
+<td>O usuário poderá adicionar ingredientes extras a um item do seu pedido.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>RF008</td>
+<td>O usuário poderá excluir um item no carrinho do seu pedido.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF009</td>
+<td>O sistema deverá mostrar o valor total do pedido.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF010</td>
+<td>O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>RF011</td>
+<td>O sistema deverá mostrar o tempo previsto de espera para o pedido.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>RF012</td>
+<td>O usuário poderá cancelar o pedido antes do pagamento.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RF013</td>
+<td>O aplicativo deverá mostrar as formas de pagamento disponíveis.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RF014</td>
+<td>O usuário poderá escolher a forma de pagamento do pedido.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RF015</td>
+<td>O aplicativo deve permitir fechar pedidos seguidos.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>RF016</td>
+<td>O aplicativo deve enviar o comprovante de pagamento para o usuário.</td>
+<td>Should</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h3 id="requisitos-nao-funcionais">Requisitos não funcionais</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>MoSCoW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF001</td>
+<td>O sistema deve ter segurança para os pagamento via cartão.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RNF002</td>
+<td>O sistema deve ter segurança para os dados dos clientes.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RNF003</td>
+<td>A API deve ser feita via microsserviços.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RNF004</td>
+<td>O aplicativo deve se comunicar com o Robô Garçom.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RNF005</td>
+<td>O aplicativo deve se conectar à internet.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RNF006</td>
+<td>O aplicativo deve ser aprovado em testes.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RNF007</td>
+<td>O usuário poderá navegar pelos menus.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>RNF008</td>
+<td>O App deverá ser compatível com normas de acessibilidade e compatibilidade, com solução/assistência/ajuda para debilidades.</td>
+<td>Won't</td>
+</tr>
+<tr>
+<td>RNF009</td>
+<td>O App deverá estar de acordo com a LGPD e melhores práticas de segurança.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>RNF010</td>
+<td>O sistema deverá ser capaz de receber pagamentos através dos serviços Mercado Pago e Pix.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="referencias">Referências</h3>
+<ul>
+<li>WIKIPEDIA, <b>MoSCoW method</b>. Disponível em: <a href="https://pt.wikipedia.org/wiki/MoSCoW_method">wikipedia.org/wiki/MoSCoW_method</a>. Acesso em 16 de agosto de 2021.</li>
 </ul></div>
         
         
