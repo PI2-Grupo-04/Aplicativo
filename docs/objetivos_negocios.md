@@ -1,10 +1,14 @@
-# Objetivos de Negócios
+# <center> OBJETIVOS DE NEGÓCIO
 
-## Histórico de Versão
+#### Histórico de versão<br>
 
-| Data | Versão | Autor(es) |
-| -------- | -------- | -------- |
-| 17.08.2021     | 0.1     | Letícia Karla Araújo     |
+|   Data   | Versão |Descrição| Autor(es) |
+| -------- | ------ | ------- | --------- |
+|17.08.2021|  0.1   |Criação do documento e adição do conteúdo|Letícia Karla Araújo|
+|17.08.2021|  0.2   |Adiciona explicação do documento| Bruna Almeida |
+<br>
+
+<div align="justify">Foi solicitado que todos os integrantes da equipe de software pensassem e escrevessem os objetivos de negócio que pensassem ser cruciais para o sistema de software.<br></div>
 
 
 ## Geral

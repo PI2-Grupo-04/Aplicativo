@@ -7,14 +7,15 @@ theme:
 nav:
     - Sobre o produto:
       - Visão de produto: visao_produto.md
-      - Objetivos de produto e negócio: objetivos_produto_negocio.md
+      - Objetivos de produto: objetivos_produto.md
+      - Objetivos de negócio: objetivos_negocios.md
       - Rich Pictures: rich_picture.md
     - Elicitação de requisitos:
       - Requisitos funcionais e não funcionais: requisitos/requisitos.md
       - MoScoW: requisitos/moscow.md
       - First Things First: requisitos/first_things.md
       - NFR: requisitos/nfr.md
-      - Especificação suplementar: requisitos/especificacao.md
+      - Especificação suplementar: requisitos/especificacao_suplementar.md
     - Protótipos:
       - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
       - Protótipo de alta fidelidade: prototipos/prototipo_alta.md

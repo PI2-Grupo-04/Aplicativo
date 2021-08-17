@@ -1,10 +1,15 @@
-# Objetivos de Produto
+# <center> OBJETIVOS DE PRODUTO
 
-## Histórico de Versão
+#### Histórico de versão<br>
 
-| Data | Versão | Autor(es) |
-| -------- | -------- | -------- |
-| 17.08.2021 | 0.1 | Letícia Karla Araújo |
+|   Data   | Versão |Descrição| Autor(es) |
+| -------- | ------ | ------- | --------- |
+|17.08.2021|  0.1   |Criação do documento e adição do conteúdo|Letícia Karla Araújo|
+|17.08.2021|  0.2   |Adiciona explicação do documento| Bruna Almeida |
+<br>
+
+<div align="justify">Foi solicitado que todos os integrantes da equipe de software pensassem e escrevessem os objetivos de produto que pensassem ser cruciais para o sistema de software.<br></div>
+
 
 ## Geral
 
@@ -47,9 +52,3 @@
 | ON10 | Facilitar o entendimento do cardápio. |
 | ON11 | Possibilitar a realização de pedidos diretamente da mesa. |
 | ON12 | Reduzir erros no entendimento do pedido. |
-
-
-
-
-
-
