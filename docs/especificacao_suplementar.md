@@ -1,7 +1,6 @@
 # Especificação Suplementar
 ## Histórico de Versão
 
-
 | Data | Versão | Autor(es) |
 | -------- | -------- | -------- |
 | 17.08.2021     | 0.1     | Letícia Karla Araújo     |
