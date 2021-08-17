@@ -41,8 +41,9 @@ A técnica denominada MoSCoW tem como objetivo priorizar os requisitos levantado
 |RF012|O usuário poderá cancelar o pedido antes do pagamento.|Should|
 |RF013|O aplicativo deverá mostrar as formas de pagamento disponíveis.|Should|
 |RF014|O usuário poderá escolher a forma de pagamento do pedido.|Must|
-|RF015|O aplicativo deve permitir fechar pedidos seguidos.|Could|
-|RF016|O aplicativo deve enviar o comprovante de pagamento para o usuário.|Should|
+|RF015|O sistema deverá processar o pagamento feito pelo usuário.|Must|
+|RF016|O aplicativo deve permitir fechar pedidos seguidos.|Could|
+|RF017|O aplicativo deve enviar o comprovante de pagamento para o usuário.|Should|
 
 <br>
 

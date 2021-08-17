@@ -38,8 +38,9 @@ Através das duas técnicas de elicitação empregadas, foram levantados os segu
 |RF012|O usuário poderá cancelar o pedido antes do pagamento.|
 |RF013|O aplicativo deverá mostrar as formas de pagamento disponíveis.|
 |RF014|O usuário poderá escolher a forma de pagamento do pedido.|
-|RF015|O aplicativo deve permitir fechar pedidos seguidos.|
-|RF016|O aplicativo deve enviar o comprovante de pagamento para o usuário.|
+|RF015|O sistema deverá processar o pagamento feito pelo usuário.|
+|RF016|O aplicativo deve permitir fechar pedidos seguidos.|
+|RF017|O aplicativo deve enviar o comprovante de pagamento para o usuário.|
 
 
 ## Requisitos não funcionais
