@@ -216,47 +216,215 @@
 </thead>
 <tbody>
 <tr>
-<td>00.08.2021</td>
+<td>18.08.2021</td>
 <td>0.1</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Adiciona First Things First</td>
+<td>Samuel Borges</td>
 </tr>
 </tbody>
 </table>
-<h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">
-
-<br><br></div>
-
+<h2 id="objetivo-do-documento">Objetivo do documento</h2>
+<p>O objetivo deste documento é realizar uma priorização dos requisitos utilizando um 
+levantamento de dados de benefícios, custos e riscos relacionados a cada um deles.</p>
+<p>Os dados são calculados utilizando o passo a passo a seguir:
+1. Estimar o Beneficio Relativo que cada requisito oferece ao produto de 1 a 9;
+1. Estimar a Penalidade Relativa que a falta de cada requisito oferece a aplicação de 1 a 9;
+1. Achar o Valor total de cada requisito usando a formula <code>Valor Total = Benefício relativo + Penalidade Relativa</code>;
+1. Estimar o Custo de implementação de cada requisito;
+1. Estimar o Risco Técnico da implementação de cada requisito;
+1. Calcular a prioridade utilizando a fórmula <code>Prioridade = Valor Total% / (Custo% + Risco%)</code></p>
 <h2 id="first-things-first_1">First Things First</h2>
-<div align="justify">
-
-<br><br></div>
-
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Benefício Relativo</th>
+<th>Penalidade Relativa</th>
+<th>Valor Total</th>
+<th>Custo Estimado</th>
+<th>Risco Estimado</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF001</td>
+<td>O usuário poderá acessar o aplicativo sem ter login.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>1</td>
+<td>1.275</td>
+</tr>
+<tr>
+<td>RF002</td>
+<td>O usuário poderá visualizar o cardápio do restaurante.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>1</td>
+<td>1.275</td>
+</tr>
+<tr>
+<td>RF013</td>
+<td>O aplicativo deverá mostrar as formas de pagamento disponíveis.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>3</td>
+<td>0.765</td>
+</tr>
+<tr>
+<td>RF014</td>
+<td>O usuário poderá escolher a forma de pagamento do pedido.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>3</td>
+<td>0.765</td>
+</tr>
+<tr>
+<td>RF009</td>
+<td>O sistema deverá mostrar o valor total do pedido.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>3</td>
+<td>0.765</td>
+</tr>
+<tr>
+<td>RF012</td>
+<td>O usuário poderá cancelar o pedido antes do pagamento.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>2</td>
+<td>3</td>
+<td>0.765</td>
+</tr>
+<tr>
+<td>RF003</td>
+<td>O usuário poderá visualizar detalhes sobre um item do menu.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>4</td>
+<td>3</td>
+<td>0.546</td>
+</tr>
+<tr>
+<td>RF004</td>
+<td>O usuário poderá adicionar um item do menu no carrinho do seu pedido.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>4</td>
+<td>3</td>
+<td>0.546</td>
+</tr>
+<tr>
+<td>RF005</td>
+<td>O sistema deverá ser capaz de mostrar a lista de itens que o usuário adicionou ao seu pedido.</td>
+<td>8</td>
+<td>9</td>
+<td>17</td>
+<td>4</td>
+<td>3</td>
+<td>0.546</td>
+</tr>
+<tr>
+<td>RF008</td>
+<td>O usuário poderá excluir um item no carrinho do seu pedido.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>4</td>
+<td>3</td>
+<td>0.546</td>
+</tr>
+<tr>
+<td>RF011</td>
+<td>O sistema deverá mostrar o tempo previsto de espera para o pedido.</td>
+<td>7</td>
+<td>5</td>
+<td>12</td>
+<td>2</td>
+<td>3</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>RF016</td>
+<td>O aplicativo deve permitir fechar pedidos seguidos.</td>
+<td>8</td>
+<td>8</td>
+<td>16</td>
+<td>4</td>
+<td>3</td>
+<td>0.486</td>
+</tr>
+<tr>
+<td>RF006</td>
+<td>O usuário poderá adicionar observações ao pedido.</td>
+<td>6</td>
+<td>4</td>
+<td>10</td>
+<td>2</td>
+<td>3</td>
+<td>0.425</td>
+</tr>
+<tr>
+<td>RF017</td>
+<td>O aplicativo deve enviar o comprovante de pagamento para o usuário.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>6</td>
+<td>3</td>
+<td>0.425</td>
+</tr>
+<tr>
+<td>RF007</td>
+<td>O usuário poderá adicionar ingredientes extras a um item do seu pedido.</td>
+<td>6</td>
+<td>4</td>
+<td>10</td>
+<td>4</td>
+<td>3</td>
+<td>0.304</td>
+</tr>
+<tr>
+<td>RF015</td>
+<td>O sistema deverá processar o pagamento feito pelo usuário.</td>
+<td>9</td>
+<td>9</td>
+<td>18</td>
+<td>8</td>
+<td>9</td>
+<td>0.225</td>
+</tr>
+<tr>
+<td>RF010</td>
+<td>O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.</td>
+<td>6</td>
+<td>4</td>
+<td>10</td>
+<td>6</td>
+<td>6</td>
+<td>0.177</td>
+</tr>
+</tbody>
+</table>
 <h3 id="referencias">Referências</h3>
 <!-- se tiver referencias -->
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
+<li>LEONHARDT, Rodrigo. Priorização #02 — MoSCoW. Medium. Disponível em: https://medium.com/gerindo-produtos-digitais/prioriza%C3%A7%C3%A3o-02-moscow-84362fbc9350. Acesso em: 18 de agosto de 2021.</li>
+<li>VARGAS, Ana. Priorização de requisitos. Matera. Disponível em: http://www.matera.com/blog/post/priorizacao-de-requisitos. Acesso em: 18 de agosto de 2021.</li>
 </ul></div>
         
         
