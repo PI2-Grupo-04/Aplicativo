@@ -9,7 +9,7 @@
 
 ## Objetivo do documento
 
-<div align="justify">
+
 
 O objetivo deste documento é realizar uma priorização dos requisitos utilizando um 
 levantamento de dados de benefícios, custos e riscos relacionados a cada um deles.
@@ -24,11 +24,9 @@ Os dados são calculados utilizando o passo a passo a seguir:
 
 
 
-<br><br></div>
 
 ## First Things First
 
-<div align="justify">
 
 |  ID |Requisito| Benefício Relativo | Penalidade Relativa | Valor Total | Custo Estimado | Risco Estimado | Prioridade |
 |-----|---------|--------------------|---------------------|-------------|----------------|----------------|------------|
@@ -51,8 +49,6 @@ Os dados são calculados utilizando o passo a passo a seguir:
 |RF010|O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.| 6 | 4 | 10 | 6 | 6 | 0.177 |
 
 
-
-<br><br></div>
 
 ### Referências
 <!-- se tiver referencias -->
