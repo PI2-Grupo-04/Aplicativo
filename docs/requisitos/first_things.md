@@ -4,7 +4,7 @@
 
 |    Data    | Versão | Descrição | Autor(es)|
 | ---------- | ------ | --------- | -------- |
-| 00.08.2021 |   0.1  | Adiciona First Things First | Samuel Borges |
+| 18.08.2021 |   0.1  | Adiciona First Things First | Samuel Borges |
 
 
 ## Objetivo do documento
