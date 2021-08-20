@@ -1,4 +1,4 @@
-# <center> BACKLOG DO PRODUTO
+# <center> METODOLOGIA
 
 #### Histórico de versão<br>
 
@@ -8,6 +8,7 @@
 |||||
 |||||
 |||||
+<br>
 
 ### Objetivo do documento
 
@@ -15,7 +16,7 @@
 
 <br><br></div>
 
-## Backlog do produto
+## Diagrama de casos de uso
 
 <div align="justify">
 

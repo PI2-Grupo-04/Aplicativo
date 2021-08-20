@@ -1,4 +1,4 @@
-# <center> ÉPICOS
+# <center> DIAGRAMA DE CASOS DE USO
 
 #### Histórico de versão<br>
 
@@ -8,6 +8,7 @@
 |||||
 |||||
 |||||
+<br>
 
 ### Objetivo do documento
 
@@ -15,7 +16,7 @@
 
 <br><br></div>
 
-## Épicos
+## Diagrama de casos de uso
 
 <div align="justify">
 

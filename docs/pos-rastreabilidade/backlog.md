@@ -1,19 +1,19 @@
-# Backlog
+# <center> BACKLOG
 
-## Histórico de Versão
+### Histórico de Versão
 
 | Data | Versão | Autor(es) |
 | -------- | -------- | -------- |
-| 20.08.2021 | 0.1 | Letícia Karla Araújo |
+| 20.08.2021 | 0.1 | Letícia Karla Araújo|
+| 20.08.2021 | 0.2 |Bruna Almeida|
+<br>
 
 ## Definição
 
-Ele é o conjunto de todas necessidades dos consumidores e do negócio que serão resolvidas pelo produto. Ele é mantido valorado e priorizado pelo Product Owner.
-
-### Requisitos Funcionais 
+<div align="justify">Ele é o conjunto de todas necessidades dos consumidores e do negócio que serão resolvidas pelo produto. Ele é mantido valorado e priorizado pelo Product Owner.<br><br></div>
 
 
-
+## Requisitos Funcionais 
 | Épico | US | Requisito | Prioridade |
 | -------- | -------- | -------- | -------- | 
 | EP01 | US002 | RF002 - O usuário poderá visualizar o cardápio do restaurante. | Alta |
@@ -33,9 +33,9 @@ Ele é o conjunto de todas necessidades dos consumidores e do negócio que serã
 | EP05 | US009 | RF015 - O sistema deverá processar o pagamento feito pelo usuário. | Alta |
 | EP03 | US009 | RF016 - O aplicativo deve permitir fechar pedidos seguidos. | Média |
 | EP03 | US009 | RF017 - O aplicativo deve enviar o comprovante de pagamento para o usuário. | Alta |
+<br>
 
-### Requisitos Não - Funcionais
-
+## Requisitos Não-Funcionais
 | Épico | US | Requisito | Prioridade |
 | -------- | -------- | -------- | -------- | 
 | EP04 | US010 | RNF001 -  O sistema deve ter segurança para os pagamentos via cartão. | Alta |
@@ -48,9 +48,9 @@ Ele é o conjunto de todas necessidades dos consumidores e do negócio que serã
 | EP05 | US013 | RNF004 - O aplicativo deve se comunicar com o Robô Garçom. | Alta |
 | EP05 | US013 | RNF005 - O aplicativo deve se conectar à internet. | Baixa |
 | EP02 | US002 e US003 | RNF007 - O usuário poderá navegar pelos menus. | Alta |
+<br>
 
+### Referências
+- Grupo 3. Metodologias Ágeis: backlog do produto. Backlog do Produto. 2017. Disponível em: https://requisitos-2017-2-nubank.github.io/Nubank/siki/agil.html. Acesso em: 20 ago. 2021.
 
-## Referências
-[1] - Grupo 3. Metodologias Ágeis: backlog do produto. Backlog do Produto. 2017. Disponível em: https://requisitos-2017-2-nubank.github.io/Nubank/siki/agil.html. Acesso em: 20 ago. 2021.
-
-[2] - SEDANO, Todd; RALPH, Paul; PERAIRE, Cecile. The Product Backlog. 2019 Ieee/Acm 41St International Conference On Software Engineering (Icse), [S.L.], v. 1, n. 1, p. 1-11, maio 2019. IEEE. http://dx.doi.org/10.1109/icse.2019.00036. Disponível em: https://ieeexplore.ieee.org/abstract/document/8812076. Acesso em: 20 ago. 2021.
+- SEDANO, Todd; RALPH, Paul; PERAIRE, Cecile. The Product Backlog. 2019 Ieee/Acm 41St International Conference On Software Engineering (Icse), [S.L.], v. 1, n. 1, p. 1-11, maio 2019. IEEE. http://dx.doi.org/10.1109/icse.2019.00036. Disponível em: https://ieeexplore.ieee.org/abstract/document/8812076. Acesso em: 20 ago. 2021.

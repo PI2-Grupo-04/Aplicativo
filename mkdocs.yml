@@ -9,14 +9,24 @@ nav:
       - Visão de produto: visao_produto.md
       - Objetivos de produto: objetivos_produto.md
       - Objetivos de negócio: objetivos_negocios.md
-      - Rich Pictures: rich_picture.md
+    - Metodologia: metodologia.md
+    - Pré-rastreabilidade:
+      - Rich Pictures: pre-rastreabilidade/rich_picture.md
+      - Gerenciamento de riscos e plano de contingência: pre-rastreabilidade/riscos.md
+      - Estimativa de custos: pre-rastreabilidade/estimativa_custos.md
     - Elicitação de requisitos:
-      - Requisitos funcionais e não funcionais: requisitos/requisitos.md
-      - MoScoW: requisitos/moscow.md
-      - First Things First: requisitos/first_things.md
-      - NFR: requisitos/nfr.md
-      - Especificação suplementar: requisitos/especificacao_suplementar.md
-    - Protótipos:
+      - Requisitos funcionais e não funcionais: elicitacao_requisitos/requisitos.md
+      - MoScoW: elicitacao_requisitos/moscow.md
+      - First Things First: elicitacao_requisitos/first_things.md
+      - NFR: elicitacao_requisitos/nfr.md
+      - Especificação suplementar: elicitacao_requisitos/especificacao_suplementar.md
+    - Pós-rastreabilidade:
+      - Casos de uso: pos-rastreabilidade/casos_uso.md
+      - Diagramas de casos de uso: pos-rastreabilidade/diagramas_casos_uso.md.md
+      - Histórias de usuário: pos-rastreabilidade/user_story.md
+      - Épicos: pos-rastreabilidade/epicos.md
+      - Backlog: pos-rastreabilidade/backlog.md
+    - Prototipação:
       - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
       - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
 
