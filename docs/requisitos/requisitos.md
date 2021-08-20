@@ -7,7 +7,7 @@
 | 13.08.2021 | 0.1  | Criação do documento | Bruna Almeida |
 | 15.08.2021 | 0.2  | Adiciona requisitos funcionais e não funcionais| Bruna Almeida |
 | 16.08.2021 | 0.3  | Adiciona objetivo    | Bruna Almeida |
-| 20.08.2021 | 0.3  | Adição das Prioridades | Letícia Karla Araújo |
+| 20.08.2021 | 0.4  | Adição das Prioridades | Letícia Karla Araújo |
 
 ### Objetivo do documento
 
