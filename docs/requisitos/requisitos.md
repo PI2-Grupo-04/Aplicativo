@@ -7,6 +7,7 @@
 | 13.08.2021 | 0.1  | Criação do documento | Bruna Almeida |
 | 15.08.2021 | 0.2  | Adiciona requisitos funcionais e não funcionais| Bruna Almeida |
 | 16.08.2021 | 0.3  | Adiciona objetivo    | Bruna Almeida |
+| 20.08.2021 | 0.3  | Adição das Prioridades | Letícia Karla Araújo |
 
 ### Objetivo do documento
 
@@ -22,38 +23,38 @@ Através das duas técnicas de elicitação empregadas, foram levantados os segu
 
 ## Requisitos funcionais
 
-|  ID |Requisito|
-|-----|---------|
-|RF001|O usuário poderá acessar o aplicativo sem ter login.|
-|RF002|O usuário poderá visualizar o cardápio do restaurante.|
-|RF003|O usuário poderá visualizar detalhes sobre um item do menu.|
-|RF004|O usuário poderá adicionar um item do menu no carrinho do seu pedido.|
-|RF005|O sistema deverá ser capaz de mostrar a lista de itens que o usuário adicionou ao seu pedido.|
-|RF006|O usuário poderá adicionar observações ao pedido.|
-|RF007|O usuário poderá adicionar ingredientes extras a um item do seu pedido.|
-|RF008|O usuário poderá excluir um item no carrinho do seu pedido.|
-|RF009|O sistema deverá mostrar o valor total do pedido.|
-|RF010|O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.|
-|RF011|O sistema deverá mostrar o tempo previsto de espera para o pedido.|
-|RF012|O usuário poderá cancelar o pedido antes do pagamento.|
-|RF013|O aplicativo deverá mostrar as formas de pagamento disponíveis.|
-|RF014|O usuário poderá escolher a forma de pagamento do pedido.|
-|RF015|O sistema deverá processar o pagamento feito pelo usuário.|
-|RF016|O aplicativo deve permitir fechar pedidos seguidos.|
-|RF017|O aplicativo deve enviar o comprovante de pagamento para o usuário.|
+|  ID |Requisito| Prioridade| Pré-Condições|
+|-----|---------|---------| -----------|
+|RF001|O usuário poderá acessar o aplicativo sem ter login.| Alta| N/A. |
+|RF002|O usuário poderá visualizar o cardápio do restaurante.| Alta| RF001 |
+|RF003|O usuário poderá visualizar detalhes sobre um item do menu.| Alta| RF002 |
+|RF004|O usuário poderá adicionar um item do menu no carrinho do seu pedido.| Alta| RF002 |
+|RF005|O sistema deverá ser capaz de mostrar a lista de itens que o usuário adicionou ao seu pedido.| Alta| RF004 |
+|RF006|O usuário poderá adicionar observações ao pedido.| Média | RF004 |
+|RF007|O usuário poderá adicionar ingredientes extras a um item do seu pedido.| Média | RF004 |
+|RF008|O usuário poderá excluir um item no carrinho do seu pedido.| Alta | RF005 |
+|RF009|O sistema deverá mostrar o valor total do pedido.| Alta | RF005 |
+|RF010|O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.| Baiza | RF006 |
+|RF011|O sistema deverá mostrar o tempo previsto de espera para o pedido.| Baixa | N/A. |
+|RF012|O usuário poderá cancelar o pedido antes do pagamento.| Média | N/A. |
+|RF013|O aplicativo deverá mostrar as formas de pagamento disponíveis.| Alta | N/A. |
+|RF014|O usuário poderá escolher a forma de pagamento do pedido.| Alta | RF013 |
+|RF015|O sistema deverá processar o pagamento feito pelo usuário.| Alta | N/A. |
+|RF016|O aplicativo deve permitir fechar pedidos seguidos.| Média | N/A. |
+|RF017|O aplicativo deve enviar o comprovante de pagamento para o usuário.| Alta | RF015 |
 
 
 ## Requisitos não funcionais
 
-|  ID |Requisito|
-|-----|---------|
-|RNF001|O sistema deve ter segurança para os pagamento via cartão.|
-|RNF002|O sistema deve ter segurança para os dados dos clientes.|
-|RNF003|A API deve ser feita via microsserviços.|
-|RNF004|O aplicativo deve se comunicar com o Robô Garçom.|
-|RNF005|O aplicativo deve se conectar à internet.|
-|RNF006|O aplicativo deve ser aprovado em testes.|
-|RNF007|O usuário poderá navegar pelos menus.|
-|RNF008|O App deverá ser compatível com normas de acessibilidade e compatibilidade, com solução/assistência/ajuda para debilidades.|
-|RNF009|O App deverá estar de acordo com a LGPD e melhores práticas de segurança.|
-|RNF010|O sistema deverá ser capaz de receber pagamentos através dos serviços Mercado Pago e Pix.|
+|  ID |Requisito| Prioridade| Pré-Condições|
+|-----|---------| ---------| -----------|
+|RNF001|O sistema deve ter segurança para os pagamento via cartão.| Alta | N/A. |
+|RNF002|O sistema deve ter segurança para os dados dos clientes.| Alta | RNF001 |
+|RNF003|A API deve ser feita via microsserviços.| Baixa | N/A. |
+|RNF004|O aplicativo deve se comunicar com o Robô Garçom.| Alta | N/A. |
+|RNF005|O aplicativo deve se conectar à internet.| Baixa | N/A. |
+|RNF006|O aplicativo deve ser aprovado em testes.| Média | N/A. |
+|RNF007|O usuário poderá navegar pelos menus.| Alta | N/A. |
+|RNF008|O App deverá ser compatível com normas de acessibilidade e compatibilidade, com solução/assistência/ajuda para debilidades.| Alta | RNF007 |
+|RNF009|O App deverá estar de acordo com a LGPD e melhores práticas de segurança.| Alta | RNF002 |
+|RNF010|O sistema deverá ser capaz de receber pagamentos através dos serviços Mercado Pago e Pix.| Média | N/A. |
