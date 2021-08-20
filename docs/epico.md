@@ -18,3 +18,8 @@ O épico é uma história de usuário que ainda não foi detalhada, é muito gra
 | EP03 | Pagamento | Letícia Karla Araújo | **1.** Quem: Clientes e Donos de restaurante. **2.** Para: Os clientes realizarem pagamentos e receberem o pagamento das refeições. **3.** Solução: Os clientes selecionam a forma de pagamento e os donos recebem em suas contas corrente.  |
 | EP04 | Segurança | Letícia Karla Araújo | **1.** Quem: Clientes e Donos de restaurante. **2.** Para: Os clientes e os donos precisam de segurança de seus dados. **3.** Solução: Os clientes inserem seus dados e por isso precisam de segurança. |
 | EP05 | Rapidez | Letícia Karla Araújo | **1.** Quem: Clientes e Donos de restaurante. **2.** Para: Os clientes e os donos precisam de rapidez no processamento dos pedidos e dos pagamentos. **3.** Solução: Para não ter atraso nas entregas é necessário que o app seja rápido em seu processamento. |
+
+## Referências
+[1] -  VENTURA, Plínio. Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário): o que são e como se relacionam estes três artefatos no contexto de um product backlog. O que são e como se relacionam estes três artefatos no contexto de um product backlog. 2019. Disponível em: https://www.ateomomento.com.br/epic-feature-e-user-story/. Acesso em: 20 ago. 2021.
+
+[2] - REHKOPF, Max. Https://www.atlassian.com/br/agile/project-management/epics-stories-themes. Disponível em: https://www.atlassian.com/br/agile/project-management/epics-stories-themes. Acesso em: 20 ago. 2021.
