@@ -1,5 +1,5 @@
 
-<div align="center"><img src="../../imagens/capa.png" width="820" ></div><br>
+<div align="center"><img src="../imagens/capa.png" width="820" ></div><br>
 <figcaption align='center'>
 </figcaption>
 <br>
