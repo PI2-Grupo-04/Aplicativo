@@ -22,7 +22,7 @@ nav:
       - Especificação suplementar: elicitacao_requisitos/especificacao_suplementar.md
     - Pós-rastreabilidade:
       - Casos de uso: pos-rastreabilidade/casos_uso.md
-      - Diagramas de casos de uso: pos-rastreabilidade/diagramas_casos_uso.md.md
+      - Diagramas de casos de uso: pos-rastreabilidade/diagramas_casos_uso.md
       - Histórias de usuário: pos-rastreabilidade/user_story.md
       - Épicos: pos-rastreabilidade/epicos.md
       - Backlog: pos-rastreabilidade/backlog.md

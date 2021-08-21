@@ -1,9 +1,8 @@
 
-<div align="center"><img src="../imagens/capa.png" width="820" ></div><br>
+<div align="center"><img src="imagens/capa.png" width="820" ></div><br>
 <figcaption align='center'>
 </figcaption>
 <br>
-
 
 <div align="justify">Repositório destinado à documentação do núcleo de Software do projeto <b>Robô Garçom</b>, para a matéria Projeto Integrador II, da Universidade de Brasília, Campus do Gama.
 <br><br>
