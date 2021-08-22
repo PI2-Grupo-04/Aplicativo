@@ -9,7 +9,8 @@
 ### Objetivo do documento
 
 <div align="justify">
-
+Este documento tem como finalodade a explicitação dos Casos de Uso do projeto Robô
+Garçom. Cada caso de uso busca descrever e explicar como será o uso de cada atividade no sistema.
 <br><br></div>
 
 ## Casos de uso
