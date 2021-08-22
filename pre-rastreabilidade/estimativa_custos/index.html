@@ -260,9 +260,15 @@
         <li class="first-level active"><a href="#estimativa-de-custos"> ESTIMATIVA DE CUSTOS</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
                 
-            <li class="second-level"><a href="#objetivo-do-documento">Objetivo do documento</a></li>
+            <li class="second-level"><a href="#custos">Custos</a></li>
                 
-            <li class="second-level"><a href="#estimativa-de-custos_1">Estimativa de custos</a></li>
+            <li class="second-level"><a href="#custo-mao-de-obra-hora">Custo mão-de-obra (hora)</a></li>
+                
+            <li class="second-level"><a href="#requisitos">Requisitos</a></li>
+                
+            <li class="second-level"><a href="#orcamento">Orçamento</a></li>
+                
+            <li class="second-level"><a href="#prazo">Prazo</a></li>
                 
                 <li class="third-level"><a href="#referencias">Referências</a></li>
     </ul>
@@ -282,24 +288,406 @@
 </thead>
 <tbody>
 <tr>
-<td>00.08.2021</td>
+<td>17.08.2021</td>
 <td>0.1</td>
+<td>Adiciona tópicos de custo e custo mão-de-obra</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td>20.08.2021</td>
+<td>0.2</td>
+<td>Adiciona Requisitos e orçamento</td>
+<td>Bruna Almeida, Damarcones Porto</td>
+</tr>
+<tr>
+<td>20.08.2021</td>
+<td>0.3</td>
+<td>Adiciona prazo e referência</td>
+<td>Bruna Almeida</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
+</tbody>
+</table>
+<h2 id="custos">Custos</h2>
+<div align="justify">
+O orçamento dos custos de Software é calculado a partir do produto entre a quantidade de horas gastas para desenvolver cada funcionalidade do sistema - que são embasadas nos requisitos funcionais e não-funcionais levantados para o projeto -, e o custo de mão-de-obra dos desenvolvedores, que são divididos em: Júnior, pleno e senior.
+<br>
+Também é incluído na estimativa de custos o valor da integração entre software e a parte eletrônica do projeto, que consiste na programação de todos os componentes e a análise de dados obtidos através dos sensores.
+<br><br></div>
+
+<h2 id="custo-mao-de-obra-hora">Custo mão-de-obra (hora)</h2>
+<div align="justify">O custo de mão-de-obra dos desenvolvedores foi baseado em um levantamento de salários de programadores, que está disponível na plataforma <a href="https://br.talent.com/salary">talent.com</a>.
+<br><br></div>
+
+<table>
+<thead>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<th>Junior</th>
+<th>Pleno</th>
+<th>Senior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R$ 15,33</td>
+<td>R$ 25,78</td>
+<td>R$ 37,69</td>
+</tr>
+</tbody>
+</table>
+<h2 id="requisitos">Requisitos</h2>
+<div align="justify">A partir de uma análise de dificuldade no desenvolvimento de funcionalidades que irão satisfazer cada um dos requisitos, é definido a quantidade de horas que cada requisito irá demandar.
+<br><br></div>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Requisito</th>
+<th>Horas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>O usuário poderá acessar o aplicativo sem ter login.</td>
+<td>10</td>
+</tr>
+<tr>
+<td>2</td>
+<td>O usuário poderá visualizar o cardápio do restaurante.</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O usuário poderá visualizar detalhes sobre um item do menu.</td>
+<td>14</td>
+</tr>
+<tr>
+<td>4</td>
+<td>O usuário poderá adicionar um item do menu no carrinho do seu pedido.</td>
+<td>16</td>
+</tr>
+<tr>
+<td>5</td>
+<td>O sistema deverá ser capaz de mostrar a lista de itens que o usuário adicionou ao seu pedido.</td>
+<td>18</td>
+</tr>
+<tr>
+<td>6</td>
+<td>O usuário poderá adicionar observações ao pedido.</td>
+<td>12</td>
+</tr>
+<tr>
+<td>7</td>
+<td>O usuário poderá adicionar ingredientes extras a um item do seu pedido.</td>
+<td>13</td>
+</tr>
+<tr>
+<td>8</td>
+<td>O usuário poderá excluir um item no carrinho do seu pedido.</td>
+<td>10</td>
+</tr>
+<tr>
+<td>9</td>
+<td>O sistema deverá mostrar o valor total do pedido.</td>
+<td>20</td>
+</tr>
+<tr>
+<td>10</td>
+<td>O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.</td>
+<td>16</td>
+</tr>
+<tr>
+<td>11</td>
+<td>O sistema deverá mostrar o tempo previsto de espera para o pedido.</td>
+<td>16</td>
+</tr>
+<tr>
+<td>12</td>
+<td>O usuário poderá cancelar o pedido antes do pagamento.</td>
+<td>10</td>
+</tr>
+<tr>
+<td>13</td>
+<td>O aplicativo deverá mostrar as formas de pagamento disponíveis.</td>
+<td>10</td>
+</tr>
+<tr>
+<td>14</td>
+<td>O usuário poderá escolher a forma de pagamento do pedido.</td>
+<td>18</td>
+</tr>
+<tr>
+<td>15</td>
+<td>O sistema deverá processar o pagamento feito pelo usuário.</td>
+<td>30</td>
+</tr>
+<tr>
+<td>16</td>
+<td>O aplicativo deve permitir fechar pedidos seguidos.</td>
+<td>12</td>
+</tr>
+<tr>
+<td>17</td>
+<td>O aplicativo deve enviar o comprovante de pagamento para o usuário.</td>
+<td>20</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Integração de software e eletrônica.</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<p><b>Total: 290 horas.</b></p>
+<h2 id="orcamento">Orçamento</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th align="left">Quantidade</th>
+<th align="left">desenvolvedores</th>
+<th align="left"></th>
+<th>Valor</th>
+<th>demanda</th>
+<th>por nível</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>Horas</td>
+<td align="left">Junior</td>
+<td align="left">Pleno</td>
+<td align="left">Senior</td>
+<td>Junior</td>
+<td>Pleno</td>
+<td>Senior</td>
+<td>Valor/Demanda</td>
+</tr>
+<tr>
+<td>1</td>
+<td>10</td>
+<td align="left">1</td>
+<td align="left">2</td>
+<td align="left">0</td>
+<td>R$ 153,30</td>
+<td>R$ 515,60</td>
+<td>R$ 0,00</td>
+<td>R$ 668,90</td>
+</tr>
+<tr>
+<td>2</td>
+<td>15</td>
+<td align="left">2</td>
+<td align="left">1</td>
+<td align="left">2</td>
+<td>R$ 459,90</td>
+<td>R$ 386,70</td>
+<td>R$ 1.130,70</td>
+<td>R$ 1.977,30</td>
+</tr>
+<tr>
+<td>3</td>
+<td>14</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td>R$ 214,62</td>
+<td>R$ 0,00</td>
+<td>R$ 527,66</td>
+<td>R$ 742,28</td>
+</tr>
+<tr>
+<td>4</td>
+<td>16</td>
+<td align="left">0</td>
+<td align="left">2</td>
+<td align="left">0</td>
+<td>R$ 0,00</td>
+<td>R$ 824,96</td>
+<td>R$ 0,00</td>
+<td>R$ 824,96</td>
+</tr>
+<tr>
+<td>5</td>
+<td>18</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td>R$ 0,00</td>
+<td>R$ 464,04</td>
+<td>R$ 678,42</td>
+<td>R$ 1.142,46</td>
+</tr>
+<tr>
+<td>6</td>
+<td>12</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td>R$ 183,96</td>
+<td>R$ 309,36</td>
+<td>R$ 452,28</td>
+<td>R$ 945,60</td>
+</tr>
+<tr>
+<td>7</td>
+<td>13</td>
+<td align="left">0</td>
+<td align="left">2</td>
+<td align="left">1</td>
+<td>R$ 0,00</td>
+<td>R$ 670,28</td>
+<td>R$ 489,97</td>
+<td>R$ 1.160,25</td>
+</tr>
+<tr>
+<td>8</td>
+<td>10</td>
+<td align="left">2</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td>R$ 306,60</td>
+<td>R$ 257,80</td>
+<td>R$ 0,00</td>
+<td>R$ 564,40</td>
+</tr>
+<tr>
+<td>9</td>
+<td>20</td>
+<td align="left">2</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td>R$ 613,20</td>
+<td>R$ 0,00</td>
+<td>R$ 0,00</td>
+<td>R$ 613,20</td>
+</tr>
+<tr>
+<td>10</td>
+<td>16</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">3</td>
+<td>R$ 0,00</td>
+<td>R$ 412,48</td>
+<td>R$ 1.809,12</td>
+<td>R$ 2.221,60</td>
+</tr>
+<tr>
+<td>11</td>
+<td>16</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">3</td>
+<td>R$ 0,00</td>
+<td>R$ 412,48</td>
+<td>R$ 1.809,12</td>
+<td>R$ 2.221,60</td>
+</tr>
+<tr>
+<td>12</td>
+<td>10</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td>R$ 153,30</td>
+<td>R$ 257,80</td>
+<td>R$ 0,00</td>
+<td>R$ 411,10</td>
+</tr>
+<tr>
+<td>13</td>
+<td>10</td>
+<td align="left">2</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td>R$ 306,60</td>
+<td>R$ 257,80</td>
+<td>R$ 0,00</td>
+<td>R$ 564,40</td>
+</tr>
+<tr>
+<td>14</td>
+<td>18</td>
+<td align="left">2</td>
+<td align="left">2</td>
+<td align="left">3</td>
+<td>R$ 551,88</td>
+<td>R$ 928,08</td>
+<td>R$ 2.035,26</td>
+<td>R$ 3.515,22</td>
+</tr>
+<tr>
+<td>15</td>
+<td>30</td>
+<td align="left">2</td>
+<td align="left">2</td>
+<td align="left">3</td>
+<td>R$ 919,80</td>
+<td>R$ 1.546,80</td>
+<td>R$ 3.392,10</td>
+<td>R$ 5.858,70</td>
+</tr>
+<tr>
+<td>16</td>
+<td>12</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td>R$ 183,96</td>
+<td>R$ 309,36</td>
+<td>R$ 452,28</td>
+<td>R$ 945,60</td>
+</tr>
+<tr>
+<td>17</td>
+<td>20</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">3</td>
+<td>R$ 0,00</td>
+<td>R$ 515,60</td>
+<td>R$ 2.261,40</td>
+<td>R$ 2.777,00</td>
+</tr>
+<tr>
+<td>18</td>
+<td>30</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">3</td>
+<td>R$ 0,00</td>
+<td>R$ 773,40</td>
+<td>R$ 3.392,10</td>
+<td>R$ 4.165,50</td>
 </tr>
 <tr>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>290</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">TOTAL:</td>
+<td>R$ 4.047,12</td>
+<td>R$ 8.069,14</td>
+<td>R$ 15.038,31</td>
+<td>R$ 31.320,07</td>
 </tr>
 <tr>
+<td><br></td>
+<td></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
 <td></td>
 <td></td>
 <td></td>
@@ -307,22 +695,14 @@
 </tr>
 </tbody>
 </table>
-<h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">
-
-<br><br></div>
-
-<h2 id="estimativa-de-custos_1">Estimativa de custos</h2>
-<div align="justify">
-
+<p><b>Custo de desenvolvimento do software: R$ 31.320,07</b> (aproximadamente).</p>
+<h2 id="prazo">Prazo</h2>
+<div align="justify">Considerando um mês com 168 horas de trabalho (21 dias úteis e 8 horas de trabalho ao dia), o prazo para o desenvolvimento da aplicação é de aproximadamente 1 mês e 16 dias.
 <br><br></div>
 
 <h3 id="referencias">Referências</h3>
-<!-- se tiver referencias -->
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
+<li>Talent.com, <b>Salário no Brasil 2021</b>, disponível em: <a href="https://br.talent.com/salary">br.talent.com/salary</a></li>
 </ul></div>
         
         
