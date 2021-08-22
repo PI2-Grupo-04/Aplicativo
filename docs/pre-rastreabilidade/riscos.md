@@ -38,7 +38,7 @@ Da mesma forma, a categorização da probabilidade do risco se dá em cinco nív
 
 <div align="justify">Quanto à Estrutura Analítica de Riscos (EAR), será utilizado um modelo personalizado que se baseia nos objetivos do projeto. A figura demonstra a EAR planejada para o projeto <b>Robô Garçom</b>.<br><br></div>
 
-<div align="center"><img src="/imagens/EAR.png" width="550" ></div><br>
+<div align="center"><img src="../../imagens/EAR.png" width="550" ></div><br>
 <figcaption align='center'>
     <b>Figura 1 - Estrutura analítica de riscos (EAR).</b>
 </figcaption>
