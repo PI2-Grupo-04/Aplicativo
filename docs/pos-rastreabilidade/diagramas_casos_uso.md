@@ -4,26 +4,18 @@
 
 |    Data    | Versão | Descrição | Autor(es)|
 | ---------- | ------ | --------- | -------- |
-| 00.08.2021 |   0.1  |  |  |
-|||||
-|||||
-|||||
+| 00.08.2021 |   0.1  | Adiciona Diagrama de Casos de Uso | Samuel Borges |
+
 <br>
 
 ### Objetivo do documento
 
 <div align="justify">
-
+O objetivo deste documento é ilustrar os casos de uso da aplicação Robô Garçom e
+explicitar seus relacionamentos. Sendo estes relacionamentos entre dois casos de uso, ou entre casos de uso e seus autores.
 <br><br></div>
 
 ## Diagrama de casos de uso
 
-<div align="justify">
+![diagrama de casos de uso](../imagens/Diagrama_Casos_Uso.png)
 
-<br><br></div>
-
-### Referências
-<!-- se tiver referencias -->
-- 1
-- 2
-- 3
