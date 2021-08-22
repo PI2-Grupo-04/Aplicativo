@@ -36,9 +36,9 @@ O projeto Robô Garçom visa automatizar o atendimento aos clientes de restauran
 
 <div align="justify">A identidade visual é de grande importância para uma empresa porque decide como a empresa será lembrada. Para o projeto será importante para padronizar os elementos visuais, como cores, fontes, logomarca, etc. Através da plataforma <a href="https://www.canva.com/">Canva</a> foram desenvolvidas uma logomarca e uma identidade visual, para guiar o design da aplicação.<br><br></div>
 
-<object data="/imagens/identidade_visual-robo_garcom.pdf" type="application/pdf" width="820px" height="485px">
-<embed src="/imagens/identidade_visual-robo_garcom.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/imagens/identidade_visual-robo_garcom.pdf">Download PDF</a>.</p>
+<object data="imagens/identidade_visual-robo_garcom.pdf" type="application/pdf" width="820px" height="485px">
+<embed src="imagens/identidade_visual-robo_garcom.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="imagens/identidade_visual-robo_garcom.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 <br><br>
