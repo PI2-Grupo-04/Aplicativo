@@ -257,19 +257,25 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#estimativas-de-riscos"> ESTIMATIVAS DE RISCOS</a></li>
+        <li class="first-level active"><a href="#gerenciamento-de-riscos"> GERENCIAMENTO DE RISCOS</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
                 
             <li class="second-level"><a href="#objetivo-do-documento">Objetivo do documento</a></li>
                 
-            <li class="second-level"><a href="#estimativas-de-riscos_1">Estimativas de riscos</a></li>
+            <li class="second-level"><a href="#gerenciamento-de-riscos_1">Gerenciamento de riscos</a></li>
+                
+                <li class="third-level"><a href="#riscos-tecnicos">Riscos técnicos</a></li>
+                <li class="third-level"><a href="#riscos-de-gerenciamento">Riscos de gerenciamento</a></li>
+                <li class="third-level"><a href="#riscos-comerciais">Riscos comerciais</a></li>
+                <li class="third-level"><a href="#riscos-externos">Riscos externos</a></li>
+            <li class="second-level"><a href="#plano-de-contingencia">Plano de contingência</a></li>
                 
                 <li class="third-level"><a href="#referencias">Referências</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="estimativas-de-riscos"><center> ESTIMATIVAS DE RISCOS</h1>
+<h1 id="gerenciamento-de-riscos"><center> GERENCIAMENTO DE RISCOS</h1>
 <h4 id="historico-de-versao">Histórico de versão<br></h4>
 <table>
 <thead>
@@ -282,25 +288,25 @@
 </thead>
 <tbody>
 <tr>
-<td>00.08.2021</td>
+<td>20.08.2021</td>
 <td>0.1</td>
-<td></td>
-<td></td>
+<td>Criação do documento</td>
+<td>Bruna Almeida</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>21.08.2021</td>
+<td>0.2</td>
+<td>Levantamento dos riscos e plano de contingência</td>
+<td>Bruna Almeida, Damarcones Porto</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>22.08.2021</td>
+<td>0.3</td>
+<td>Adiciona conteúdo ao documento</td>
+<td>Bruna Almeida</td>
 </tr>
 <tr>
-<td></td>
+<td><br></td>
 <td></td>
 <td></td>
 <td></td>
@@ -308,21 +314,440 @@
 </tbody>
 </table>
 <h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">
+<div align="justify">O gerenciamento dos riscos do projeto tem por objetivo diminuir a probabilidade e/ou o impacto de riscos negativos, a fim de otimizar as chances de sucesso do projeto. (Guia PMBOK®)<br><br></div>
 
+<h2 id="gerenciamento-de-riscos_1">Gerenciamento de riscos</h2>
+<div align="justify">Baseando-se na metodologia de gerenciamento dos riscos de projeto apresentada no livro Project Management Body of Knowledge (PMBOK), os riscos levantados pelo grupo serão classificados quanto à prioridade, que é definida a partir do produto entre os pesos de impacto do risco ao projeto e probabilidade de ocorrência.
+<br></div>
+<div align="center"> <b>Prioridade = Impacto * Probabilidade</b>
 <br><br></div>
 
-<h2 id="estimativas-de-riscos_1">Estimativas de riscos</h2>
-<div align="justify">
-
-<br><br></div>
-
-<h3 id="referencias">Referências</h3>
-<!-- se tiver referencias -->
+<p>O impacto do risco ao projeto é categorizado em cinco níveis:</p>
 <ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
+<li>Muito baixo: De pouca relevância para o projeto - Peso 1</li>
+<li>Baixo: Expressa pouco impacto sobre o projeto - Peso 2</li>
+<li>Médio: Impacto considerável - Peso 3</li>
+<li>Alto: Grande impacto no projeto - Peso 4</li>
+<li>Muito alto: Impede o prosseguimento do projeto - Peso 5</li>
+</ul>
+<p>Da mesma forma, a categorização da probabilidade do risco se dá em cinco níveis de porcentagem:</p>
+<ul>
+<li>Muito baixa: intervalo de 0\% à 20\% - Peso 1</li>
+<li>Baixa: intervalo de 21\% à 40\% - Peso 2</li>
+<li>Média: intervalo de 41\% à 60\% - Peso 3</li>
+<li>Alta: intervalo de 61\% à 80\% - Peso 4</li>
+<li>Muito alta: intervalo de 81\% à 100\% - Peso 5</li>
+</ul>
+<div align="justify">Quanto à Estrutura Analítica de Riscos (EAR), será utilizado um modelo personalizado que se baseia nos objetivos do projeto. A figura demonstra a EAR planejada para o projeto <b>Robô Garçom</b>.<br><br></div>
+
+<div align="center"><img src="/imagens/EAR.png" width="550" ></div>
+<p><br></p>
+<figcaption align='center'>
+    <b>Figura 1 - Estrutura analítica de riscos (EAR).</b>
+</figcaption>
+<p><br></p>
+<div align="justify">Por fim, as tabelas a seguir apresentam os riscos levantados, classificados a partir da categorização da EAR e da prioridade.<br><br></div>
+
+<h3 id="riscos-tecnicos"><strong>Riscos técnicos</strong></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição do risco</th>
+<th>Consequência</th>
+<th align="left">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RT01</td>
+<td>Trabalho fora do escopo</td>
+<td>Gasto de tempo e energia.</td>
+<td align="left">3</td>
+<td align="center">2</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td>RT02</td>
+<td>Dificuldade da equipe com as tecnologias utilizadas</td>
+<td>Atraso nas entregas, dificuldade de interação entre a equipe e baixa qualidade do produto final.</td>
+<td align="left">4</td>
+<td align="center">2</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td>RT03</td>
+<td>Escolha de tecnologias inadequados ao projeto</td>
+<td>Não entrega do produto ou entrega inferior.</td>
+<td align="left">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td>RT04</td>
+<td>Foco em atividades pouco relevantes para o projeto</td>
+<td>Tempo e energia desperdiçados.</td>
+<td align="left">2</td>
+<td align="center">2</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td>RT05</td>
+<td>Falta de perícia na integração software/eletrônica</td>
+<td>Não entrega do produto ou entrega inferior.</td>
+<td align="left">5</td>
+<td align="center">3</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td>RT06</td>
+<td>Algoritmo de procura não ser adequado à necessidade do Robô Garçom</td>
+<td>Solução não otimizada, aumentando a probabilidade de erros ou defeitos.</td>
+<td align="left">5</td>
+<td align="center">4</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="riscos-de-gerenciamento"><strong>Riscos de gerenciamento</strong></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição do risco</th>
+<th>Consequência</th>
+<th align="left">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RG01</td>
+<td>Desistência de um membro</td>
+<td>Sobrecarga de trabalho para o restante da equipe.</td>
+<td align="left">4</td>
+<td align="center">2</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td>RG02</td>
+<td>Falta de comunicação entre membros</td>
+<td>Atraso nas entregas e retrabalho.</td>
+<td align="left">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td>RG03</td>
+<td>Mal gerenciamento da equipe</td>
+<td>Desmotivação da equipe e produto final de baixa qualidade.</td>
+<td align="left">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td>RG04</td>
+<td>Conflitos internos</td>
+<td>Desmotivação da equipe e desistência de membros.</td>
+<td align="left">4</td>
+<td align="center">3</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>RG05</td>
+<td>Cronograma inviável</td>
+<td>Sobrecarga da equipe e não cumprimento de prazos.</td>
+<td align="left">4</td>
+<td align="center">2</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td>RG06</td>
+<td>Sobrecarga de membros</td>
+<td>Desmotivação da equipe e entregas de baixa qualidade.</td>
+<td align="left">4</td>
+<td align="center">3</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>RG07</td>
+<td>Atraso nas entregas</td>
+<td>Impedimento da continuidade do projeto.</td>
+<td align="left">5</td>
+<td align="center">3</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="riscos-comerciais"><strong>Riscos comerciais</strong></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição do risco</th>
+<th>Consequência</th>
+<th align="left">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RC01</td>
+<td>Fornecedores entregarem insumos de baixa qualidade</td>
+<td>Atraso na produção.</td>
+<td align="left">5</td>
+<td align="center">3</td>
+<td align="center">15</td>
+</tr>
+<tr>
+<td>RC02</td>
+<td>Atraso na entrega de insumos</td>
+<td>Impedimento da continuidade do projeto.</td>
+<td align="left">5</td>
+<td align="center">4</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td>RC03</td>
+<td>Troca de prestadores de serviço</td>
+<td>Atraso na produção.</td>
+<td align="left">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td>RC04</td>
+<td>Aumento de custo da matéria-prima</td>
+<td>Aumento do valor do produto final</td>
+<td align="left">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td>RC05</td>
+<td>Quebra de contrato</td>
+<td>Multa e perda de um possível cliente para o produto.</td>
+<td align="left">5</td>
+<td align="center">4</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="riscos-externos"><strong>Riscos externos</strong></h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição do risco</th>
+<th>Consequência</th>
+<th align="left">Impacto</th>
+<th align="center">Probabilidade</th>
+<th align="center">Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RE01</td>
+<td>Restaurante não ter infraestrutura adequada</td>
+<td>Quebra de contrato por inviabilidade de uso do produto.</td>
+<td align="left">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td>RE02</td>
+<td>Produto concorrente com um custo-benefício maior</td>
+<td>Diminuição do número de possíveis clientes.</td>
+<td align="left">4</td>
+<td align="center">3</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td>RE03</td>
+<td>Produto não ser aprovado em testes de qualidade</td>
+<td>Reestruturação de todo o projeto.</td>
+<td align="left">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td>RE04</td>
+<td>Produto não atender a alguma norma técnica ou legislativa</td>
+<td>Reestruturação de todo o projeto.</td>
+<td align="left">5</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="plano-de-contingencia">Plano de contingência</h2>
+<div align="justify">Agora são apresentadas medidas preventivas - para evitar que os riscos apresentados anteriormente ocorram efetivamente -, e medidas corretivas, com o objetivo de amenizar o impacto dos riscos anteriormente apresentados no projeto.<br><br></div>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Medidas Preventivas</th>
+<th>Medidas Corretivas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RT01</td>
+<td>Ter um entendimento maior sobre o projeto como um todo e manter comunicação constante com os membros de outros núcleos</td>
+<td>Revisar o escopo e refatorá-lo, se necessário.</td>
+</tr>
+<tr>
+<td>RT02</td>
+<td>e Fazer um levantamento em equipe sobre as tecnologias conhecidas e criar um quadro de conhecimentos</td>
+<td>Fazer uma nova escolha de tecnologias de acordo com o perfil da equipe.</td>
+</tr>
+<tr>
+<td>RT03</td>
+<td>Fazer um levantamento em equipe sobre as tecnologias que sejam mais adequadas às necessidades do projeto</td>
+<td>Fazer uma nova escolha de tecnologias de acordo com a necessidade do produto.</td>
+</tr>
+<tr>
+<td>RT04</td>
+<td>Priorizar as atividades essenciais para o projeto</td>
+<td>Repensar os objetivos do projeto e redefinir as tarefas.</td>
+</tr>
+<tr>
+<td>RT05</td>
+<td>Constante comunicação entre os núcleos de software e elêtronica, para alinhamento de ideias.</td>
+<td>Aumentar o nível de conhecimento acerca das técnicas de integração e melhorar a interação entre os núcleos.</td>
+</tr>
+<tr>
+<td>RT06</td>
+<td>Fazer um levantamento da melhor tecnologia que satisfaça esse requisito.</td>
+<td>Pesquisar novos algoritmos para determinar qual será mais adequado ao projeto.</td>
+</tr>
+<tr>
+<td>RG01</td>
+<td>Motivação constante da equipe.</td>
+<td>Redistribuição de tarefas.</td>
+</tr>
+<tr>
+<td>RG02</td>
+<td>Reuniões constantes para estimular o entrosamento da equipe.</td>
+<td>Procurar o problema que está causando a falta de comunicação.</td>
+</tr>
+<tr>
+<td>RG03</td>
+<td>Buscar feedbacks constantes sobre o desempenho da equipe de trabalho.</td>
+<td>Mudança de metodologia de gerenciamento.</td>
+</tr>
+<tr>
+<td>RG04</td>
+<td>Manter diálogo constante e amigável.</td>
+<td>O gerente deve buscar resolver o conflito entre os membros.</td>
+</tr>
+<tr>
+<td>RG05</td>
+<td>Planejamento com base nas entregas do projeto, tentando sempre manter um período de revisão antes de cada entrega.</td>
+<td>Priorização e redistribuição de tarefas.</td>
+</tr>
+<tr>
+<td>RG06</td>
+<td>Distribuição proporção de tarefas entre os membros.</td>
+<td>Redistribuição de tarefas.</td>
+</tr>
+<tr>
+<td>RG07</td>
+<td>Determinar um prazo de acordo com o nível de dificuldade da tarefa.</td>
+<td>Aumentar o prazo de entrega da tarefa ou designar mais responsáveis para concluí-la.</td>
+</tr>
+<tr>
+<td>RC01</td>
+<td>Escolher fornecedores com boa reputação.</td>
+<td>Buscar novos fornecedores.</td>
+</tr>
+<tr>
+<td>RC02</td>
+<td>Considerar no prazo uma margem para atrasos.</td>
+<td>Dar prosseguimento em outras etapas do projeto que não necessitam do insumo em atraso.</td>
+</tr>
+<tr>
+<td>RC03</td>
+<td>Ter em mãos uma lista com outros prestadores de serviço, em caso de inviabilidade do fornecedor principal.</td>
+<td>Contatar novos prestadores de serviço o mais rápido possível.</td>
+</tr>
+<tr>
+<td>RC04</td>
+<td>Possuir um fundo de garantia no orçamento para eventual aumento de preços e desenvolver um estoque de insumos</td>
+<td>Fazer uma nova pesquisa de preços para encontrar o melhor custo-benefício.</td>
+</tr>
+<tr>
+<td>RC05</td>
+<td>Confirmar se a necessidade de ambas as partes estão sendo atendidas, antes da assinatura do contrato.</td>
+<td>Buscar um acordo entre as partes envolvidas.</td>
+</tr>
+<tr>
+<td>RE01</td>
+<td>Deixar claro no escopo os pré-requisitos para a utilização do Robô Garçom.</td>
+<td>Sugerir modificações no estabelecimento.</td>
+</tr>
+<tr>
+<td>RE02</td>
+<td>Garantir que o produto tenha um custo-benefício justo.</td>
+<td>Não há medida corretiva.</td>
+</tr>
+<tr>
+<td>RE03</td>
+<td>Realização de testes contínuos.</td>
+<td>Refatoração de projeto e aplicação de testes mais rigorosos.</td>
+</tr>
+<tr>
+<td>RE04</td>
+<td>Realizar ampla pesquisa de normas e legislações que se aplicam ao projeto.</td>
+<td>Buscar correções o mais breve possível.</td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="referencias">Referências</h3>
+<ul>
+<li>PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.</li>
 </ul></div>
         
         
