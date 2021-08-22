@@ -35,7 +35,7 @@ Para a nossa equipe foram unidos aspectos das metodologias Scrum, KANBAN e smart
 As Sprints são planejadas pela gerente do núcleo de software, e transcritas no repositório da equipe no GitHub, em forma de projetos.
 <br><br></div>
 
-<div align="center"><img src="../../imagens/sprint.png" width="820" ></div><br>
+<div align="center"><img src="/imagens/sprint.png" width="820" ></div><br>
 <figcaption align='center'>
     <b>Figura 1 - Sprints.</b>
 </figcaption>
@@ -57,7 +57,7 @@ As Sprints são planejadas pela gerente do núcleo de software, e transcritas no
 <div align="justify">Cada atividade é atribuída a um ou mais responsáveis e todas iniciam na coluna “To do”, e quando a atividade é iniciada é preciso movê-la para a coluna “Doing”, e ao finalizá-la, o responsável deve movê-la para a coluna “done”.
 <br><br></div>
 
-<div align="center"><img src="../../imagens/kanban.png" width="820" ></div><br>
+<div align="center"><img src="/imagens/kanban.png" width="820" ></div><br>
 <figcaption align='center'>
     <b>Figura 2 - Sprint 3 do projeto.</b>
 </figcaption>
@@ -85,7 +85,7 @@ As principais ferramentas utilizadas pela equipe são:
 
 <br>
 
-<div><img src="../../imagens/ferramentas.png" width="800" ></div>
+<div><img src="/imagens/ferramentas.png" width="800" ></div>
 <br>
 
 - GitHub: Utilizado para fazer o versionamento do projeto, o armazenamento dos documentos criados pela equipe e hospedagem da WIKI do projeto.
