@@ -52,7 +52,7 @@ salva no sistema.
 **Fluxo normal:**
 
 1. O usuário administrador entra no aplicativo e realiza login;
-1. O usuário administrador entra na tela do cardapio do restaurante;
+1. O usuário administrador entra na tela do cardápio do restaurante;
 1. O usuário administrador edita as informações dobre o cardápio;
 1. O usuário administrador salva o cardápio e retorna à tela inicial.
 
@@ -62,7 +62,7 @@ salva no sistema.
 
 **Ator:** Usuário Comum
 
-**Descrição:** Permite que o Usuário comum visualize o cardápio do retaurante em
+**Descrição:** Permite que o Usuário comum visualize o cardápio do restaurante em
 que se encontra.
 
 **Pré-condições:** O usuário deve ter um aparelho com acesso ao aplicativo.
@@ -82,7 +82,7 @@ do restaurante em que se encontra.
 **Ator:** Usuário Comum
 
 **Descrição:** Permite que o usuário comum veja detalhes sobre cada item no
-cardápio
+cardápio.
 
 **Pré-condições:** O usuário precisa estar visualizando o cardápio do restaurante.
 
@@ -91,7 +91,7 @@ sobre um item específico do cardápio.
 
 **Fluxo normal:**
 
-1. O usuário visualiza o carcápio do restaurante em que se encontra;
+1. O usuário visualiza o cardápio do restaurante em que se encontra;
 1. O usuário seleciona o item que deseja detalhar e aciona a opção "Mais Detalhes";
 1. O usuário vê os detalhes do item escolhido.
 
@@ -102,7 +102,7 @@ sobre um item específico do cardápio.
 **Ator:** Usuário Comum
 
 **Descrição:** Permite que o usuário comum adicione, edite e remova itens do seu
-carrinho
+carrinho.
 
 **Pré-condições:** O usuário precisa ter acesso ao cardápio do restaurante.
 
@@ -123,7 +123,7 @@ ser salva no sistema.
 **Ator:** Usuário Comum
 
 **Descrição:** Permite que o usuário comum adicione, edite e remova observações
-sobre cada item do seu pedido
+sobre cada item do seu pedido.
 
 **Pré-condições:** O usuário precisa ter itens adicionados ao seu carrinho.
 
@@ -152,7 +152,7 @@ ingredientes extras.
 
 1. O usuário adiciona um item ao seu carrinho;
 1. O usuário pode adicionar ingredientes extras a esse item;
-1. O usuário salva a observação para esse item.
+1. O usuário salva os ingredientes extras para esse item.
 
 <br><br>
 
@@ -165,7 +165,7 @@ antes da realização do pagamento.
 
 **Pré-condições:** O usuário precisa ter itens adicionados ao seu carrinho.
 
-**Pós-condições:** A lista de itens que o usuário adicionaou em seu carrinho vão
+**Pós-condições:** A lista de itens que o usuário adicionou em seu carrinho vão
 ser exibidas na tela do aparelho.
 
 **Fluxo normal:**
@@ -200,7 +200,7 @@ restaurante.
 **Ator:** Usuário Comum
 
 **Descrição:** Permite que o usuário cancele um pedido antes de realizar o
-pagamento
+pagamento.
 
 **Pré-condições:** O Usuário precisa ter feito um pedido.
 
