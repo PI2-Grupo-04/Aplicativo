@@ -5,17 +5,15 @@
 | Data       | Versão | Descrição             | Autor(es)     |
 | ---------- | ------ | --------------------- | ------------- |
 | 00.08.2021 | 0.1    | Adiciona Casos de Uso | Samuel Borges |
+<br>
 
 ### Objetivo do documento
 
 <div align="justify">
-Este documento tem como finalodade a explicitação dos Casos de Uso do projeto Robô
-Garçom. Cada caso de uso busca descrever e explicar como será o uso de cada atividade no sistema.
+Este documento tem como finalidade a explicitação dos Casos de Uso do projeto Robô Garçom. Cada caso de uso busca descrever e explicar como será o uso de cada atividade no sistema.
 <br><br></div>
 
 ## Casos de uso
-
-<div align="justify">
 
 ### UC01 Manter Usuário do Restaurante
 
@@ -268,5 +266,3 @@ para a entrega do seu pedido.
 1. O usuário realiza o pagamento do pedido;
 1. O pedido é enviado para o preparo pelo restaurante;
 1. O usuário vê o tempo restante estimado para a entrega do pedido.
-
-<br><br></div>
