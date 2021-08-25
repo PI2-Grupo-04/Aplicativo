@@ -14,7 +14,7 @@
 <div align="justify">
 O objetivo da criação do protótipo de alta fidelidade é a apresentação das telas da forma mais próxima possível com o produto final. Esse processo permite o debate sobre detalhes aprofundados no momento das tomadas de decisão a respeito do design do software e a identificação de possíveis problemas de usabilidade, com base nas interações dos potenciais usuários do sistema. A prototipagem é uma das maneiras de construir a arquitetura da informação de um software, cujo objetivo é tornar eficaz a interação entre o usuário e a interface do qual ele esta interagindo. 
 <br>
-O protótipo de alta fidelidade foi desenvolvido na plataforma Figma, pelos intregrantes da equipe Bruna Almeida e Damarcones Porto. O software Figma foi escolhido devido a facilidade na utilização da ferramenta e pela diversidade de funcionalidades presentes no mesmo. O protótipo tem como objetivo abranger, além da interface do produto em termos visuais e estéticos, os aspectos da experiência do usuário em termos de interações, fluxo e comportamento. 
+O protótipo de alta fidelidade foi desenvolvido na plataforma <a href="https://www.figma.com/">Figma</a>, pelos intregrantes da equipe Bruna Almeida e Damarcones Porto. O software <a href="https://www.figma.com/">Figma</a> foi escolhido devido a facilidade na utilização da ferramenta e pela diversidade de funcionalidades presentes no mesmo. O protótipo tem como objetivo abranger, além da interface do produto em termos visuais e estéticos, os aspectos da experiência do usuário em termos de interações, fluxo e comportamento. 
 <br><br></div>
 
 ## Protótipo de alta fidelidade
