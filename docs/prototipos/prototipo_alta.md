@@ -21,8 +21,11 @@ O protótipo de alta fidelidade foi desenvolvido na plataforma <a href="https://
 
 <div align="justify">Clique na imagem abaixo para acessar o protótipo de alta fidelidade.<br><br></div>
 
-[![](../imagens/prototipo-alta.png)](https://www.figma.com/proto/Jvr7amlb2WSsB8yJstr53r/PI2-Prot%C3%B3tipo_alta_fidelidade?node-id=12%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A3)
+<!-- [![](../imagens/prototipo-alta.png)=400x](https://www.figma.com/proto/Jvr7amlb2WSsB8yJstr53r/PI2-Prot%C3%B3tipo_alta_fidelidade?node-id=12%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A3) -->
 
+<a href="https://www.figma.com/proto/Jvr7amlb2WSsB8yJstr53r/PI2-Prot%C3%B3tipo_alta_fidelidade?node-id=12%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=12%3A3">
+  <img src="../../imagens/prototipo-alta.png" width="820"/>
+</a> 
 ### Referências
 
 - WIKIPÉDIA, <b>Arquitetura de informação</b>, dispnível em: <a href="https://pt.wikipedia.org/wiki/Arquitetura_de_informa%C3%A7%C3%A3o#Objetivo_da_Arquitetura_da_Informa%C3%A7%C3%A3o">wikipedia.org/wiki/Arquitetura_de_informacao</a>. Acesso em 24 de agosto de 2021.
