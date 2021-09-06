@@ -29,6 +29,12 @@ nav:
     - Prototipação:
       - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
       - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
+    - Modelagem: 
+      - Diagrama de arquitetura: modelagem/diagrama_arquitetura.md
+      - Diagrama de atividades: modelagem/diagrama_atividades.md
+      - Diagrama de classes: modelagem/diagrama_classes.md
+      - Diagrama de entidade e relacionamento: modelagem/diagrama_entidade_relacionamento.md
+      - Daigrama de pacotes: modelagem/diagrama_pacote.md
 
 
 
