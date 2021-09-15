@@ -14,6 +14,7 @@ Um modelo ER é uma modelo sistemático para descrever e definir um processo de 
 ## Diagrama entidade-relacionamento
   
 <div align="center"><img src="../../docs/imagens/diagramaER.drawio.png" width="350" ></div> 
+<div align="center"> Figura 1: Diagrama ER elaborado pelo Grupo 4 de PI2.</div> 
 
 ### Referências
 - GAMA BOYLE LAB (Brasília). DIAGRAMA DE ENTIDADE RELACIONAMENTO. Disponível em: https://damarcones.github.io/Gama_Boyle_Lab/diagramas/diagrama-entidade/. Acesso em: 13 set. 2021.
