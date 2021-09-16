@@ -37,7 +37,7 @@ As Sprints são planejadas pela gerente do núcleo de software, e transcritas no
 
 <div align="center"><img src="../imagens/sprint.png" width="820" ></div><br>
 <figcaption align='center'>
-    <b>Figura 1 - Sprints.</b>
+    <b>Figura 1 - Sprints. Fonte: Repositório da equipe.</b>
 </figcaption>
 <br>
 
@@ -59,7 +59,7 @@ As Sprints são planejadas pela gerente do núcleo de software, e transcritas no
 
 <div align="center"><img src="../imagens/kanban.png" width="820" ></div><br>
 <figcaption align='center'>
-    <b>Figura 2 - Sprint 3 do projeto.</b>
+    <b>Figura 2 - Sprint 3 do projeto. Fonte: Repositório da equipe.</b>
 </figcaption>
 <br>
 
