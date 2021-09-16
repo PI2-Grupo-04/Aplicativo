@@ -91,13 +91,46 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../../metodologia/">Metodologia</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../../metodologia/">Metodologia</a>
+                        <a href="../../arquitetura/">Arquitetura do Software</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura da informação <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../prototipos/heuristicas/">Heurísticas de Nielsen</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -109,6 +142,12 @@
                             
 <li >
     <a href="../../pre-rastreabilidade/rich_picture/">Rich Pictures</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pre-rastreabilidade/legislacao/">Legislação e normas</a>
 </li>
 
                         
@@ -130,7 +169,7 @@
                 
                 
                     <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação de requisitos <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Requisitos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
@@ -163,27 +202,6 @@
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós-rastreabilidade <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagramas de casos de uso</a>
-</li>
-
-                        
                             
 <li >
     <a href="../../pos-rastreabilidade/user_story/">Histórias de usuário</a>
@@ -208,29 +226,20 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipação <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagrama de casos de uso</a>
+</li>
+
                         
                             
 <li >
@@ -252,13 +261,19 @@
                         
                             
 <li >
+    <a href="../../modelagem/diagrama_componentes.md">Diagrama de componentes</a>
+</li>
+
+                        
+                            
+<li >
     <a href="../../modelagem/diagrama_entidade_relacionamento/">Diagrama de entidade e relacionamento</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../modelagem/diagrama_pacote.md">Daigrama de pacotes</a>
+    <a href="../../modelagem/diagrama_pacotes/">Diagrama de pacotes</a>
 </li>
 
                         
@@ -326,18 +341,26 @@
 <td>Adiciona First Things First</td>
 <td>Samuel Borges</td>
 </tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <h2 id="objetivo-do-documento">Objetivo do documento</h2>
-<p>O objetivo deste documento é realizar uma priorização dos requisitos utilizando um 
-levantamento de dados de benefícios, custos e riscos relacionados a cada um deles.</p>
-<p>Os dados são calculados utilizando o passo a passo a seguir:
-1. Estimar o Beneficio Relativo que cada requisito oferece ao produto de 1 a 9;
-1. Estimar a Penalidade Relativa que a falta de cada requisito oferece a aplicação de 1 a 9;
-1. Achar o Valor total de cada requisito usando a formula <code>Valor Total = Benefício relativo + Penalidade Relativa</code>;
-1. Estimar o Custo de implementação de cada requisito;
-1. Estimar o Risco Técnico da implementação de cada requisito;
-1. Calcular a prioridade utilizando a fórmula <code>Prioridade = Valor Total% / (Custo% + Risco%)</code></p>
+<div align="justify">O objetivo deste documento é realizar uma priorização dos requisitos utilizando um levantamento de dados de benefícios, custos e riscos relacionados a cada um deles. Os dados são calculados utilizando o passo a passo a seguir:<br></div>
+
+<ol>
+<li>Estimar o Beneficio Relativo que cada requisito oferece ao produto de 1 a 9;</li>
+<li>Estimar a Penalidade Relativa que a falta de cada requisito oferece a aplicação de 1 a 9;</li>
+<li>Achar o Valor total de cada requisito usando a fórmula <code>Valor Total = Benefício relativo + Penalidade Relativa</code>;</li>
+<li>Estimar o Custo de implementação de cada requisito;</li>
+<li>Estimar o Risco Técnico da implementação de cada requisito;</li>
+<li>Calcular a prioridade utilizando a fórmula <code>Prioridade = Valor Total% / (Custo% + Risco%)</code>.</li>
+</ol>
+<p><br></p>
 <h2 id="first-things-first_1">First Things First</h2>
 <table>
 <thead>
@@ -523,13 +546,26 @@ levantamento de dados de benefícios, custos e riscos relacionados a cada um del
 <td>6</td>
 <td>0.177</td>
 </tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <h3 id="referencias">Referências</h3>
-<!-- se tiver referencias -->
 <ul>
-<li>LEONHARDT, Rodrigo. Priorização #02 — MoSCoW. Medium. Disponível em: https://medium.com/gerindo-produtos-digitais/prioriza%C3%A7%C3%A3o-02-moscow-84362fbc9350. Acesso em: 18 de agosto de 2021.</li>
-<li>VARGAS, Ana. Priorização de requisitos. Matera. Disponível em: http://www.matera.com/blog/post/priorizacao-de-requisitos. Acesso em: 18 de agosto de 2021.</li>
+<li>
+<p>LEONHARDT, Rodrigo, <strong>Priorização #02 — MoSCoW</strong>. Medium. Disponível em: <a href="https://medium.com/gerindo-produtos-digitais/prioriza%C3%A7%C3%A3o-02-moscow-84362fbc9350">medium.com/gerindo-produtos-digitais/prioriza%C3%A7%C3%A3o-02-moscow-84362fbc9350</a>. Acesso em: 18 de agosto de 2021.</p>
+</li>
+<li>
+<p>VARGAS, Ana, <strong>Priorização de requisitos</strong>. Matera. Disponível em: <a href="http://www.matera.com/blog/post/priorizacao-de-requisitos">matera.com/blog/post/priorizacao-de-requisitos</a>. Acesso em: 18 de agosto de 2021..</p>
+</li>
 </ul></div>
         
         

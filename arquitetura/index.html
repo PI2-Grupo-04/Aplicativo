@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Visão de produto - Home</title>
+    <title>Arquitetura do Software - Home</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -69,13 +69,13 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre o produto <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Visão de produto</a>
+<li >
+    <a href="../visao_produto/">Visão de produto</a>
 </li>
 
                         
@@ -102,8 +102,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../arquitetura/">Arquitetura do Software</a>
+                    <li class="active">
+                        <a href="./">Arquitetura do Software</a>
                     </li>
                 
                 
@@ -291,13 +291,13 @@
                     </li>
 
                 <!--
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../metodologia/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../objetivos_produto/">
+                        <a rel="next" href="../prototipos/heuristicas/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -311,35 +311,25 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#visao-de-produto"> VISÃO DE PRODUTO</a></li>
+        <li class="first-level active"><a href="#arquitetura-de-software"> ARQUITETURA DE SOFTWARE</a></li>
             <li class="second-level"><a href="#historico-de-versao">Histórico de versão</a></li>
                 
             <li class="second-level"><a href="#objetivo-do-documento">Objetivo do documento</a></li>
                 
-            <li class="second-level"><a href="#visao-de-produto_1">Visão de produto</a></li>
+            <li class="second-level"><a href="#arquitetura-do-software">Arquitetura do Software</a></li>
                 
-                <li class="third-level"><a href="#aplicativo">Aplicativo:</a></li>
-                <li class="third-level"><a href="#robo">Robô:</a></li>
-            <li class="second-level"><a href="#posicionamento">Posicionamento</a></li>
+            <li class="second-level"><a href="#linguagem">Linguagem</a></li>
                 
-                <li class="third-level"><a href="#oportunidade-de-negocios">Oportunidade de Negócios:</a></li>
-                <li class="third-level"><a href="#descricao-do-problema">Descrição do problema:</a></li>
-                <li class="third-level"><a href="#sentenca-de-posicao-do-produto">Sentença de Posição do Produto:</a></li>
-                <li class="third-level"><a href="#resumo-dos-usuarios">Resumo dos usuários:</a></li>
-            <li class="second-level"><a href="#escopo">Escopo</a></li>
+            <li class="second-level"><a href="#front-end-e-back-end">Front-end e Back-end</a></li>
                 
-                <li class="third-level"><a href="#aplicativo_1">Aplicativo:</a></li>
-                <li class="third-level"><a href="#robo_1">Robô:</a></li>
-            <li class="second-level"><a href="#escopo-negativo">Escopo negativo</a></li>
+            <li class="second-level"><a href="#banco-de-dados">Banco de dados</a></li>
                 
-                <li class="third-level"><a href="#aplicativo_2">Aplicativo:</a></li>
-                <li class="third-level"><a href="#robo_2">Robô:</a></li>
                 <li class="third-level"><a href="#referencias">Referências</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="visao-de-produto"><center> VISÃO DE PRODUTO</h1>
+<h1 id="arquitetura-de-software"><center> ARQUITETURA DE SOFTWARE</h1>
 <h4 id="historico-de-versao">Histórico de versão<br></h4>
 <table>
 <thead>
@@ -352,10 +342,10 @@
 </thead>
 <tbody>
 <tr>
-<td>18.08.2021</td>
+<td>16.09.2021</td>
 <td>0.1</td>
-<td>Adiciona Primeira versão do Docuemnto de Visão</td>
-<td>Samuel Borges</td>
+<td>Criação do documento</td>
+<td>Bruna Almeida</td>
 </tr>
 <tr>
 <td><br></td>
@@ -366,146 +356,80 @@
 </tbody>
 </table>
 <h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">O objetivo deste documento é facilitar o entendimento geral do produto, suas
-necessidades, escopos e riscos. Além disso, esse documento é apresentado em um
-alto nível de abstração para facilitar o entendimento para todos os envolvidos em
-sua produção.<br></div>
+<div align="justify"> O presente documento visa apresentar as decisões que foram tomadas pela equipe quanto à arquitetura do software que será desenvolvido para o projeto <b>Robô Garçom</b>.
+<br>
+As escolhas quanto à arquitetura do software se deram levando em consideração a facilidade de integração entre os componentes. Um exemplo disso é a escolha da linguagem JavaScript, que é a mesma utilizada no Framework <b>Johnny Five</b>, que fará integração entre o robô e o computador central da cozinha.
+<br></div>
 
-<p><br></p>
-<h2 id="visao-de-produto_1">Visão de produto</h2>
-<h3 id="aplicativo"><strong>Aplicativo</strong>:</h3>
-<div align="justify">O aplicativo tem como objetivo facilitar pedidos e entregas de comida em um restaurante em que o consumo se dá no local, evitando falhas de comunicação entre o cliente e o atendente além de evitar contato humano desnecessário, que pode transmitir doenças contagiosas, principalmente em períodos de pandemia.<br></div>
+<h2 id="arquitetura-do-software">Arquitetura do Software</h2>
+<div align="justify">
+O software proposto para o projeto será uma aplicação estruturada no modelo arquitetural <b>MVC</b> (Model-View-Controller), e permitirá que os clientes, por meio de um tablet disponível em cada mesa, visualizem o cardápio, façam seus pedidos e realizem o pagamento, através das plataformas Mercado Pago ou PIX.
+<br>
+A arquitetura MVC permite dividir as funcionalidades do sistema em camadas, o que facilita a resolução de um problema maior. As camadas consistem em:<br></div>
 
-<h3 id="robo"><strong>Robô</strong>:</h3>
-<div align="justify">O robô irá realizar as entregas dos alimentos solicitados pelo aplicativo. O *layout* do restaurante será mapeado de antemão e o robô realizará suas entregas de forma algorítmica. O objetivo do robô é evitar o contato humano na hora da entrega de alimentos, além de idealmente diminuir o custo do restaurante com mão de obra.<br></div>
-
-<p><br></p>
-<h2 id="posicionamento">Posicionamento</h2>
-<h3 id="oportunidade-de-negocios"><strong>Oportunidade de Negócios:</strong></h3>
-<div align="justify">Atualmente estamos vivendo um período delicado causado pela pandemia do COVID-19. Por isto, se tornaram necessárias inovações que permitam o funcionamento de determinados setores da economia enquanto reduzem as possibilidades de infeccção. Os aplicativos de entrega de comida resolveram parte deste problema, mas restaurantes de consumo local muitas vezes tiveram que arranjar soluções provisórias de baixa qualidade, com muitos deles utilizando serviços em núvem para armazenar imagens ou PDFs de seus cardápios que poderiam ser acessados por meio de um QR code.<br></div>
-
-<h3 id="descricao-do-problema"><strong>Descrição do problema:</strong></h3>
-<p><br></p>
-<table>
-  <tr>
-    <th> O problema </th>
-    <td> A necessidade de pessoas anotando e entregando pedidos em restaurantes. </td>
-  </tr>
-  <tr>
-    <th> Afeta </th>
-    <td>
-      Restaurantes que precisam funcionar mesmo tendo que reduzir contato humano ou
-      mão de obra.
-    </td>
-  </tr>
-  <tr>
-    <th> cujo impacto é </th>
-    <td> Aumento da possibilidade de contagio e gastos com mão de obra. </td>
-  </tr>
-  <tr>
-    <th> Uma boa solução seria </th>
-    <td>
-      Um sistema automatizado para resolver simultâneamente o problema de realização e
-      entrega de pedidos
-    </td>
-  </tr>
-</table>
-<p><br></p>
-<h3 id="sentenca-de-posicao-do-produto"><strong>Sentença de Posição do Produto:</strong></h3>
-<table>
-  <tr>
-    <th> Para </th>
-    <td> Restaurantes que oferecem consumo primariamente no local </td>
-  </tr>
-  <tr>
-    <th> Que </th>
-    <td>
-      Necessitam de alguma maneira de evitar contato humano entre garçons e clientes
-      ou diminuir os custos com mão de obra 
-    </td>
-  </tr>
-  <tr>
-    <th> O </th>
-    <td> Projeto Robô Garçom </td>
-  </tr>
-  <tr>
-    <th> Que </th>
-    <td> Oferece um sistema automatizado de pedido e entrega de alimentos </td>
-  </tr>
-  <tr>
-    <th> Diferente dos </th>
-    <td> Aplicativos de entrega de comida tradicionais como iFood e UberEats </td>
-  </tr>
-  <tr>
-    <th> Nosso produto </th>
-    <td>
-      Foca em restaurantes com o consumo no local e vem integrado com um robô
-      entregador
-    </td>
-  </tr>
-</table>
-
-<p><br></p>
-<h3 id="resumo-dos-usuarios"><strong>Resumo dos usuários:</strong></h3>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Descrição</th>
-<th>Responsabilidades</th>
-<th>Envolvido</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Administrador</td>
-<td>Usuário com autorização de criar entidades</td>
-<td>Responsável por criar e atualizar cardápios do restaurante</td>
-<td>Dono e ou gerente do restaurante</td>
-</tr>
-<tr>
-<td>Usuário Comum</td>
-<td>Usuário que irá consumir os dados da aplicação</td>
-<td>Fazer pedidos e realizar pagamentos</td>
-<td>Consumidores</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<h2 id="escopo">Escopo</h2>
-<h3 id="aplicativo_1"><strong>Aplicativo:</strong></h3>
-<p>Os itens a seguir fazem parte do escopo do Aplicativo:</p>
 <ul>
-<li>Interface de escolha de alimentos;</li>
-<li>Escolha de métodos de pagamentos;</li>
-<li>Processamento do pagamento (Consumo de serviço de terceiros);</li>
-<li>Emissão de comprovante de pagamento;</li>
-<li>Cupons de desconto.</li>
+<li>
+<p><div align="justify"><b>Modelo (Model):</b> Sua responsabilidade é gerenciar e controlar a forma como os dados se comportam por meio das funções, lógica e regras de negócios estabelecidas. É a camada que se comunica com o banco de dados, recebe as informações do Controlador, válida se ela está correta ou não e envia a resposta mais adequada.</div></p>
+</li>
+<li>
+<p><div align="justify"><b>Visualização (View):</b> Responsável por tudo que o usuário final visualiza, toda a interface e recursos ligados a aparência como mensagens, botões ou telas \cite{padraoMVC2}. Transmite questionamentos ao \textit{controller} e entrega as respostas obtidas ao usuário.</div></p>
+</li>
+<li>
+<p><div align="justify"><b>Controlador (Controller):</b> Responsável por controlar todo o fluxo de informação que passa pelo sistema. É a camada que executa uma regra de negócio e repassa a informação para a visualização.</div></p>
+</li>
 </ul>
-<h3 id="robo_1"><strong>Robô:</strong></h3>
-<p>Os itens a seguir fazem parte do escopo do Robô:
-- Navegação algorítimica;
-- Detecção de obstruçoes no caminho;
-- Aviso de obstrução de caminho.</p>
+<div align="justify">O diagrama de blocos a seguir representa a arquitetura do sistema, integrando o Robô Garçom a todo o sistema de automação do restaurante.
+<br></div>
+
 <p><br></p>
-<h2 id="escopo-negativo">Escopo negativo</h2>
-<h3 id="aplicativo_2"><strong>Aplicativo:</strong></h3>
-<p>Os itens a seguir <strong>NÃO</strong> fazem parte do escopo do Aplicativo:</p>
-<ul>
-<li>Recomendação de restaurantes;</li>
-<li>Recomendação de pratos.</li>
-</ul>
-<h3 id="robo_2"><strong>Robô:</strong></h3>
-<p>Os itens a seguir <strong>NÃO</strong> fazem parte do escopo do Robô:</p>
-<ul>
-<li>Machine learning para navegação automática pelo restaurante;</li>
-<li>Viagens de longas distâncias.</li>
-</ul>
+<div align="center"><img src="../../imagens/diagrama_blocos.png" width="700" ><!--<br-->
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de blocos desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
+</figcaption>
+<br></div>
+
+<div align="justify">A escolha do MVC como a arquitetura do sistema se deu pelo fato dessa arquitetura proporcionar uma separação clara entre as camadas de visualização e regras de negócios, o que torna mais fácil a manutenção do sistema.<br></div>
+
+<h2 id="linguagem">Linguagem</h2>
+<div align="justify">A aplicação será desenvolvida em <b>JavaScript (JS)</b>, uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, ou seja, os objetos são criados dinamicamente, destruídos, transmitidos para uma função, retornados como um valor e têm todos os direitos que outras variáveis da linguagem de programação possuem. JS é conhecido como a linguagem de script para páginas Web, mas também é utilizada em vários outros ambientes sem browser, como por exemplo o node.js.
+<br>
+De acordo com o site stackoverflow.com, JS foi eleito pelo oitavo ano seguido a linguagem de programação mais usada no mundo. Sua popularidade é uma consequência por ela ser uma linguagem muito flexível e multifacetada.
+<br>
+Uma das vantagens de se utilizar o JS é a existência de um Framework voltado ao controle de robôs, denominado Johnny Five, para integração direta com os controladores utilizados no equipamento, e que é escrito em JavaScript, o que facilita a produção do software.
+<br></div>
+
+<h2 id="front-end-e-back-end">Front-end e Back-end</h2>
+<div align="justify">
+A definição das ferramentas utilizadas para o desenvolvimento do Back e Front-end, se deu por conta da familiaridade da equipe com as plataformas NodeJS e React, ambos utilizados para a execução de códigos JavaScript.
+<br>
+A biblioteca <b>React</b> será utilizada para o desenvolvimento da interface do usuário (front-end). Trata-se de de uma biblioteca de código aberto escrita em JavaScript, e será utilizada no desenvolvimento do sistema, em conjunto com o módulo <b>React Native</b>, que possibilita o desenvolvimento de aplicativos para Android e iOS. Essa ferramenta foi definido para o desenvolvimento da interface do sistema por sua flexibilidade - facilidade de integração com outras bibliotecas e Frameworks - e pelo uso de componentes reutilizáveis.
+<br>
+Já para o back-end será utilizado o <b>Node.JS</b>. Node é uma plataforma de aplicação, na qual os programas são escritos em JS e compilados, otimizados e interpretados pela Máquina Virtual V8, que é a mesma usada pelo Google para executar JavaScript no navegador Chrome. O resultado deste processo é entregue como código de máquina server-side, tornando o Node muito mais eficiente na sua execução e consumo de recursos . O Node.JS será utilizado em conjunto com o Framework <b>Express.JS</b>.
+<br>
+A plataforma Node foi escolhida por ser eficiente na implementação de aplicações em tempo real, que precisam transferir mensagens de um lado para o outro de forma rápida. As mensagens no caso do sistema Robô Garçom, serão os pedidos. Além disso, o NodeJS é uma API com NoSQL por trás, o que facilita a integração com o banco de dados MongoDB.
+<br></div>
+
+<h2 id="banco-de-dados">Banco de dados</h2>
+<div align="justify">
+O banco de dados utilizado para a aplicação será o <b>MongoDB</b>, um banco do tipo NoSQL. Por ser um banco de dados do tipo NoSQl, o MongoDB é orientado a documentos, ou seja, armazena todos os dados em arquivos do tipo JSON, ao contrário do modelo de dados relacional que armazena os dados em linhas e colunas. O MongoDB é ágil e escalável horizontalmente e também permite consultas diretas com JavaScript.
+<br>
+Para gerenciar e armazenar todas as informações utilizadas pelo robô e o restaurante, o bando de dados MongoDB se mostrou a alternativa mais adequada, já que é escalável horizontalmente, o que permite a ampliação de todo o seus sistema caso seja necessário. Suporta também um alto índice de consultas e envios de dados em JavaScript, pois trata-se de um banco do tipo NoSQL.
+<br></div>
 <p><br></p>
 <h3 id="referencias">Referências</h3>
 <ul>
-<li>SOMMERVILLE, Ian. <strong>Engenharia de Software</strong>. São Paulo: Pearson Prentice Hall. 9ª edição. 2011.</li>
-<li>GUEDES, Gilleanes T. A. <strong>UML: uma abordagem prática</strong>. Novatec Editora, 2008.</li>
+<li>
+<p>WAGON le. <strong>O que é padrão MVC? Entenda arquitetura de softwares!</strong>. 2020. Disponível em: <a href="https://www.lewagon.com/pt-BR/blog/o-que-e-padrao-mvc">lewagon.com/pt-BR/blog/o-que-e-padrao-mvc</a>. Acesso em 07 desetembro de 2021.</p>
+</li>
+<li>
+<p>NET, O. D. <strong>O que é Model-view-controller (MVC)?</strong>. 2011. Disponível em: <a href="https://www.oficinadanet.com.br/artigo/desenvolvimento/o_que_e_model-view-controller_mvc">oficinadanet.com.br/artigo/desenvolvimento/o_que_e_model-view-controller_mvc</a>. Acesso em 07 desetembro de 2021.</p>
+</li>
+<li>
+<p>OVERFLOW, <strong>S.Most Popular Technologies: programming, scripting, and markup languages.</strong>. 2021. Disponível em: <a href="https://insights.stackoverflow.com/survey/2020#most-popular-technologies">insights.stackoverflow.com/survey/2020#most-popular-technologies</a>. Acesso em 07 de setembro de 2021.</p>
+</li>
+<li>
+<p>ESCUDELARIO, B. de F. <strong>Vale a pena aprender NodeJS?</strong>. 2018. Disponível em: <a href="https://imasters.com.br/back-end/vale-pena-aprender-nodejs">imasters.com.br/back-end/vale-pena-aprender-nodejs</a>. Acesso em 07 de setembro de 2021.</p>
+</li>
 </ul></div>
         
         

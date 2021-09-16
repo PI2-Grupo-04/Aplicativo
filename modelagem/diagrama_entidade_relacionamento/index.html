@@ -91,13 +91,46 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../../metodologia/">Metodologia</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../../metodologia/">Metodologia</a>
+                        <a href="../../arquitetura/">Arquitetura do Software</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura da informação <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../prototipos/heuristicas/">Heurísticas de Nielsen</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -109,6 +142,12 @@
                             
 <li >
     <a href="../../pre-rastreabilidade/rich_picture/">Rich Pictures</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pre-rastreabilidade/legislacao/">Legislação e normas</a>
 </li>
 
                         
@@ -130,7 +169,7 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação de requisitos <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Requisitos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
@@ -163,27 +202,6 @@
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós-rastreabilidade <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagramas de casos de uso</a>
-</li>
-
-                        
                             
 <li >
     <a href="../../pos-rastreabilidade/user_story/">Histórias de usuário</a>
@@ -207,30 +225,21 @@
                 
                 
                 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipação <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagrama de casos de uso</a>
+</li>
+
                         
                             
 <li >
@@ -251,6 +260,12 @@
 
                         
                             
+<li >
+    <a href="../diagrama_componentes.md">Diagrama de componentes</a>
+</li>
+
+                        
+                            
 <li class="active">
     <a href="./">Diagrama de entidade e relacionamento</a>
 </li>
@@ -258,7 +273,7 @@
                         
                             
 <li >
-    <a href="../diagrama_pacote.md">Daigrama de pacotes</a>
+    <a href="../diagrama_pacotes/">Diagrama de pacotes</a>
 </li>
 
                         
@@ -281,8 +296,8 @@
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../diagrama_pacotes/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li> -->
@@ -304,8 +319,6 @@
             <li class="second-level"><a href="#diagrama-entidade-relacionamento_1">Diagrama entidade-relacionamento</a></li>
                 
                 <li class="third-level"><a href="#referencias">Referências</a></li>
-            <li class="second-level"><a href="#-">-</a></li>
-                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -323,44 +336,41 @@
 </thead>
 <tbody>
 <tr>
-<td>00.09.2021</td>
+<td>13.09.2021</td>
 <td>0.1</td>
-<td></td>
-<td></td>
+<td>Criação do Documento</td>
+<td>Letícia Karla Araújo</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
+<td><br></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">
-
-<br>
-
-<br></div>
+<div align="justify">Um modelo ER é uma modelo sistemático para descrever e definir um processo de negócio. O processo é modelado como componentes em forma de entidades que são ligadas umas as outras por relacionamentos que expressam as dependências e exigências entre elas. Como por exemplo, um edifício pode ser dividido em zero ou mais apartamentos, mas um apartamento pode estar localizado em apenas um edifício. Entidades podem ter várias propriedades ou atributos que as caracterizam. Os diagramas existem para fazer a representação grafica dessas entidades, atributos e relacionamentos.<br></div>
 
 <h2 id="diagrama-entidade-relacionamento_1">Diagrama entidade-relacionamento</h2>
-<div align="justify">
-
-<br>
-
+<p><br></p>
+<div align="center"><img src="../../imagens/diagramaER.drawio.png" width="650" ><!--<br-->
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama ER desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
+</figcaption>
 <br></div>
-
+<p><br></p>
 <h3 id="referencias">Referências</h3>
-<h2 id="-">-</h2>
 <ul>
-<li></li>
+<li>
+<p>GAMA BOYLE LAB (Brasília). <strong>DIAGRAMA DE ENTIDADE RELACIONAMENTO</strong>. Disponível em: <a href="https://damarcones.github.io/Gama_Boyle_Lab/diagramas/diagrama-entidade/">damarcones.github.io/Gama_Boyle_Lab/diagramas/diagrama-entidade/</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
+<li>
+<p>DEVMEDIA (Brasil). <strong>Modelo Entidade Relacionamento (MER) e Diagrama Entidade: relacionamento (der). Relacionamento (DER)</strong>. Disponível em: <a href="https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332">devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
+<li>
+<p>LUCIDCHART (Brasil). <strong>O que é um diagrama entidade relacionamento?</strong>. Disponível em: <a href="https://www.lucidchart.com/pages/pt/o-que-e-diagrama-entidade-relacionamento">lucidchart.com/pages/pt/o-que-e-diagrama-entidade-relacionamento</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
 </ul></div>
         
         

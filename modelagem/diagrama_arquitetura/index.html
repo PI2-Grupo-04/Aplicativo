@@ -91,13 +91,46 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../../metodologia/">Metodologia</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../../metodologia/">Metodologia</a>
+                        <a href="../../arquitetura/">Arquitetura do Software</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Arquitetura da informação <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../prototipos/heuristicas/">Heurísticas de Nielsen</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -109,6 +142,12 @@
                             
 <li >
     <a href="../../pre-rastreabilidade/rich_picture/">Rich Pictures</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pre-rastreabilidade/legislacao/">Legislação e normas</a>
 </li>
 
                         
@@ -130,7 +169,7 @@
                 
                 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação de requisitos <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Requisitos <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
@@ -163,27 +202,6 @@
 </li>
 
                         
-                        </ul>
-                    </li>
-                
-                
-                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós-rastreabilidade <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagramas de casos de uso</a>
-</li>
-
-                        
                             
 <li >
     <a href="../../pos-rastreabilidade/user_story/">Histórias de usuário</a>
@@ -207,30 +225,21 @@
                 
                 
                 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prototipação <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_baixa/">Protótipo de baixa fidelidade</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../prototipos/prototipo_alta/">Protótipo de alta fidelidade</a>
-</li>
-
-                        
-                        </ul>
-                    </li>
-                
-                
-                
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/casos_uso/">Casos de uso</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../pos-rastreabilidade/diagramas_casos_uso/">Diagrama de casos de uso</a>
+</li>
+
                         
                             
 <li class="active">
@@ -252,13 +261,19 @@
                         
                             
 <li >
+    <a href="../diagrama_componentes.md">Diagrama de componentes</a>
+</li>
+
+                        
+                            
+<li >
     <a href="../diagrama_entidade_relacionamento/">Diagrama de entidade e relacionamento</a>
 </li>
 
                         
                             
 <li >
-    <a href="../diagrama_pacote.md">Daigrama de pacotes</a>
+    <a href="../diagrama_pacotes/">Diagrama de pacotes</a>
 </li>
 
                         
@@ -277,7 +292,7 @@
 
                 <!--
                     <li >
-                        <a rel="prev" href="../../prototipos/prototipo_alta/">
+                        <a rel="prev" href="../../pos-rastreabilidade/diagramas_casos_uso/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
@@ -304,8 +319,6 @@
             <li class="second-level"><a href="#diagrama-de-arquitetura-funcional_1">Diagrama de arquitetura funcional</a></li>
                 
                 <li class="third-level"><a href="#referencias">Referências</a></li>
-            <li class="second-level"><a href="#-">-</a></li>
-                
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
@@ -323,44 +336,41 @@
 </thead>
 <tbody>
 <tr>
-<td>00.09.2021</td>
+<td>13.09.2021</td>
 <td>0.1</td>
-<td></td>
-<td></td>
+<td>Criação do Documento de Arquitetura</td>
+<td>Letícia Karla Araújo</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
+<td><br></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
 <h3 id="objetivo-do-documento">Objetivo do documento</h3>
-<div align="justify">
-
-<br>
-
-<br></div>
-
+<div align="justify">Os diagramas de arquitetura de software é a forma de comunicar o planejamento da construição de um sistema de software ou como um sistema de software existente funciona. Ele facilita o entendimento da arquitetura adotada, é recurso gráfico didátivo, principalmente para os clientes do projeto. Onde é possível explicar vários aspectos do projeto de maneira direta e visual. O Diagrama de Arquitetura podem explicar, também, o Processo Projetual.<br></div>
+<p><br></p>
 <h2 id="diagrama-de-arquitetura-funcional_1">Diagrama de arquitetura funcional</h2>
-<div align="justify">
-
-<br>
-
+<p><br></p>
+<div align="center"><img src="../../imagens/DiagramaArquiteturaFuncional.drawio.png" width="750" ><!--<br-->
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de Arquitetura desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
+</figcaption>
 <br></div>
 
 <h3 id="referencias">Referências</h3>
-<h2 id="-">-</h2>
 <ul>
-<li></li>
+<li>
+<p>BALOSIN, Ionut. <strong>Por que precisamos de diagramas de arquitetura?</strong>. Disponível em:<a href="https://www.infoq.com/br/articles/why-architectural-diagrams/">infoq.com/br/articles/why-architectural-diagrams/</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
+<li>
+<p>PUC - PR. <strong>Quais são os tipos de arquitetura de software e como escolher o melhor para seu projeto</strong>. Disponível em: <a href="https://posdigital.pucpr.br/blog/tipos-de-arquitetura-de-software">posdigital.pucpr.br/blog/tipos-de-arquitetura-de-software</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
+<li>
+<p>SOPHIA, Ana. <strong>Diagramas De Arquitetura</strong>. 2020. Disponível em: <a href="https://www.edrawsoft.com/pt/architecture-diagram.html">edrawsoft.com/pt/architecture-diagram.html</a>. Acesso em 13 de setembro de 2021.</p>
+</li>
 </ul></div>
         
         
