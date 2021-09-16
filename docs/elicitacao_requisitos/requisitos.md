@@ -8,6 +8,7 @@
 | 15.08.2021 | 0.2  | Adiciona requisitos funcionais e não funcionais| Bruna Almeida |
 | 16.08.2021 | 0.3  | Adiciona objetivo    | Bruna Almeida |
 | 20.08.2021 | 0.4  | Adição das Prioridades | Letícia Karla Araújo |
+<br>
 
 ### Objetivo do documento
 
@@ -34,7 +35,7 @@ Através das duas técnicas de elicitação empregadas, foram levantados os segu
 |RF007|O usuário poderá adicionar ingredientes extras a um item do seu pedido.| Média | RF004 |
 |RF008|O usuário poderá excluir um item no carrinho do seu pedido.| Alta | RF005 |
 |RF009|O sistema deverá mostrar o valor total do pedido.| Alta | RF005 |
-|RF010|O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.| Baiza | RF006 |
+|RF010|O aplicativo deverá disponibilizar um espaço para o usuário digitar códigos de promoção.| Baixa | RF006 |
 |RF011|O sistema deverá mostrar o tempo previsto de espera para o pedido.| Baixa | N/A. |
 |RF012|O usuário poderá cancelar o pedido antes do pagamento.| Média | N/A. |
 |RF013|O aplicativo deverá mostrar as formas de pagamento disponíveis.| Alta | N/A. |
