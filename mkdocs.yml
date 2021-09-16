@@ -9,32 +9,40 @@ nav:
       - Visão de produto: visao_produto.md
       - Objetivos de produto: objetivos_produto.md
       - Objetivos de negócio: objetivos_negocios.md
-    - Metodologia: metodologia.md
+      - Metodologia: metodologia.md
+
+    - Arquitetura do Software: arquitetura.md
+
+    - Arquitetura da informação:
+      - Heurísticas de Nielsen: prototipos/heuristicas.md
+      - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
+      - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
+
     - Pré-rastreabilidade:
       - Rich Pictures: pre-rastreabilidade/rich_picture.md
+      - Legislação e normas: pre-rastreabilidade/legislacao.md
       - Gerenciamento de riscos e plano de contingência: pre-rastreabilidade/riscos.md
       - Estimativa de custos: pre-rastreabilidade/estimativa_custos.md
-    - Elicitação de requisitos:
+
+    - Requisitos:
       - Requisitos funcionais e não funcionais: elicitacao_requisitos/requisitos.md
       - MoScoW: elicitacao_requisitos/moscow.md
       - First Things First: elicitacao_requisitos/first_things.md
       - NFR: elicitacao_requisitos/nfr.md
       - Especificação suplementar: elicitacao_requisitos/especificacao_suplementar.md
-    - Pós-rastreabilidade:
-      - Casos de uso: pos-rastreabilidade/casos_uso.md
-      - Diagramas de casos de uso: pos-rastreabilidade/diagramas_casos_uso.md
       - Histórias de usuário: pos-rastreabilidade/user_story.md
       - Épicos: pos-rastreabilidade/epicos.md
       - Backlog: pos-rastreabilidade/backlog.md
-    - Prototipação:
-      - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
-      - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
-    - Modelagem: 
+
+    - Modelagem:
+      - Casos de uso: pos-rastreabilidade/casos_uso.md
+      - Diagrama de casos de uso: pos-rastreabilidade/diagramas_casos_uso.md
       - Diagrama de arquitetura: modelagem/diagrama_arquitetura.md
       - Diagrama de atividades: modelagem/diagrama_atividades.md
       - Diagrama de classes: modelagem/diagrama_classes.md
+      - Diagrama de componentes: modelagem/diagrama_componentes.md
       - Diagrama de entidade e relacionamento: modelagem/diagrama_entidade_relacionamento.md
-      - Daigrama de pacotes: modelagem/diagrama_pacote.md
+      - Diagrama de pacotes: modelagem/diagrama_pacotes.md
 
 
 
