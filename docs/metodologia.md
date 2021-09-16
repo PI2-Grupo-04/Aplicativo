@@ -14,6 +14,7 @@
 <br><br></div>
 
 
+
 ## Metodologias ágeis
 <div align="justify">As metodologias ágeis são abordagens para o desenvolvimento de produtos que estão alinhadas com os valores e princípios descritos no Manifesto Ágil para Desenvolvimento de Software, assinado em 2001 em Utah. As metodologias ágeis em geral defendem o planejamento adaptativo, times auto-organizados e multidisciplinares, melhoria contínua e o desenvolvimento evolucionário.
 <br>
