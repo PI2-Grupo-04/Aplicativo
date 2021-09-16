@@ -5,45 +5,31 @@
 |    Data    | Versão | Descrição | Autor(es)|
 | ---------- | ------ | --------- | -------- |
 | 18.08.2021 |   0.1  | Adiciona Primeira versão do Docuemnto de Visão | Samuel Borges |
+<br>
 
+### Objetivo do documento
 
-## Objetivo do documento
-
-O objetivo deste documento é facilitar o entendimento geral do produto, suas
+<div align="justify">O objetivo deste documento é facilitar o entendimento geral do produto, suas
 necessidades, escopos e riscos. Além disso, esse documento é apresentado em um
 alto nível de abstração para facilitar o entendimento para todos os envolvidos em
-sua produção.
+sua produção.<br></div>
 
 <br>
 
 ## Visão de produto
 
 ### **Aplicativo**:
-O aplicativo tem como objetivo facilitar pedidos e entregas de comida em um
-restaurante em que o consumo se dá no local, evitando falhas de comunicação entre 
-o cliente e o atendente além de evitar contato humano desnecessário, que pode
-transmitir doenças contagiosas, principalmente em períodos de pandemia.
+<div align="justify">O aplicativo tem como objetivo facilitar pedidos e entregas de comida em um restaurante em que o consumo se dá no local, evitando falhas de comunicação entre o cliente e o atendente além de evitar contato humano desnecessário, que pode transmitir doenças contagiosas, principalmente em períodos de pandemia.<br></div>
 
 ### **Robô**:
-O robô irá realizar as entregas dos alimentos solicitados pelo aplicativo. 
-O *layout* do restaurante será mapeado de antemão e o robô realizará suas entregas
-de forma algorítmica. O objetivo do robô é evitar o contato humano na hora da
-entrega de alimentos, além de idealmente diminuir o custo do restaurante com
-mão de obra.
+<div align="justify">O robô irá realizar as entregas dos alimentos solicitados pelo aplicativo. O *layout* do restaurante será mapeado de antemão e o robô realizará suas entregas de forma algorítmica. O objetivo do robô é evitar o contato humano na hora da entrega de alimentos, além de idealmente diminuir o custo do restaurante com mão de obra.<br></div>
 
 <br>
 
 ## Posicionamento
 
 ### **Oportunidade de Negócios:**
-Atualmente estamos vivendo um período delicado causado pela pandemia do COVID-19.
-Por isto, se tornaram necessárias inovações que permitam o funcionamento de
-determinados setores da economia enquanto reduzem as possibilidades de infeccção.
-Os aplicativos de entrega de comida resolveram parte deste problema, mas
-restaurantes de consumo local muitas vezes tiveram que arranjar soluções
-provisórias de baixa qualidade, com muitos deles utilizando serviços em núvem para
-armazenar imagens ou PDFs de seus cardápios que poderiam ser acessados por meio de
-um QR code.
+<div align="justify">Atualmente estamos vivendo um período delicado causado pela pandemia do COVID-19. Por isto, se tornaram necessárias inovações que permitam o funcionamento de determinados setores da economia enquanto reduzem as possibilidades de infeccção. Os aplicativos de entrega de comida resolveram parte deste problema, mas restaurantes de consumo local muitas vezes tiveram que arranjar soluções provisórias de baixa qualidade, com muitos deles utilizando serviços em núvem para armazenar imagens ou PDFs de seus cardápios que poderiam ser acessados por meio de um QR code.<br></div>
 
 
 ### **Descrição do problema:**
@@ -155,7 +141,7 @@ Os itens a seguir **NÃO** fazem parte do escopo do Robô:
 
 <br>
 
-## Referências
-- SOMMERVILLE, Ian. Engenharia de Software. São Paulo: Pearson Prentice Hall. 9ª edição. 2011.
+### Referências
 
-- GUEDES, Gilleanes T. A. UML: uma abordagem prática. Novatec Editora, 2008.
+- SOMMERVILLE, Ian. **Engenharia de Software**. São Paulo: Pearson Prentice Hall. 9ª edição. 2011.
+- GUEDES, Gilleanes T. A. **UML: uma abordagem prática**. Novatec Editora, 2008.

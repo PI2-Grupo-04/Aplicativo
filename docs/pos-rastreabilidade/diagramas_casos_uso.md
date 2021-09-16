@@ -16,6 +16,10 @@ explicitar seus relacionamentos. Sendo estes relacionamentos entre dois casos de
 <br><br></div>
 
 ## Diagrama de casos de uso
+<br>
 
-![diagrama de casos de uso](../imagens/Diagrama_Casos_Uso.png)
-
+<div align="center"><img src="../../imagens/Diagrama_Casos_Uso.png" width="700" ></<br>
+<figcaption align='center'>
+    <b>Figura 1 - Diagrama de casos de uso desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
+</figcaption>
+<br></div>

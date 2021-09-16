@@ -23,6 +23,6 @@
 
 ### Referências
 
--  VENTURA, Plínio. Epic, Feature e User Story (Epico, Funcionalidade e História de Usuário): o que são e como se relacionam estes três artefatos no contexto de um product backlog. O que são e como se relacionam estes três artefatos no contexto de um product backlog. 2019. Disponível em: https://www.ateomomento.com.br/epic-feature-e-user-story/. Acesso em: 20 ago. 2021.
+-  VENTURA, Plínio. 2019. **Epic, Feature e User Story: o que são e como se relacionam estes três artefatos no contexto de um product backlog**. Disponível em: [ateomomento.com.br/epic-feature-e-user-story/](https://www.ateomomento.com.br/epic-feature-e-user-story/). Acesso em 20 de agosto de 2021.
 
-- REHKOPF, Max. Https://www.atlassian.com/br/agile/project-management/epics-stories-themes. Disponível em: https://www.atlassian.com/br/agile/project-management/epics-stories-themes. Acesso em: 20 ago. 2021.
+- REHKOPF, Max. **Histórias, epics e iniciativas**. Disponível em: [atlassian.com/br/agile/project-management/epics-stories-themes](https://www.atlassian.com/br/agile/project-management/epics-stories-themes). Acesso em 20 de agosto de 2021.

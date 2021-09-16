@@ -8,9 +8,9 @@
 | 20.08.2021 | 0.2 |Bruna Almeida|
 <br>
 
-## Definição
+### Definição
 
-<div align="justify">Ele é o conjunto de todas necessidades dos consumidores e do negócio que serão resolvidas pelo produto. Ele é mantido valorado e priorizado pelo Product Owner.<br><br></div>
+<div align="justify">Backlog é definido como o conjunto de todas as necessidades dos consumidores e do negócio que serão resolvidas pelo produto. Ele é mantido valorado e priorizado pelo Product Owner.<br><br></div>
 
 
 ## Requisitos Funcionais 
@@ -51,6 +51,7 @@
 <br>
 
 ### Referências
-- Grupo 3. Metodologias Ágeis: backlog do produto. Backlog do Produto. 2017. Disponível em: https://requisitos-2017-2-nubank.github.io/Nubank/siki/agil.html. Acesso em: 20 ago. 2021.
 
-- SEDANO, Todd; RALPH, Paul; PERAIRE, Cecile. The Product Backlog. 2019 Ieee/Acm 41St International Conference On Software Engineering (Icse), [S.L.], v. 1, n. 1, p. 1-11, maio 2019. IEEE. http://dx.doi.org/10.1109/icse.2019.00036. Disponível em: https://ieeexplore.ieee.org/abstract/document/8812076. Acesso em: 20 ago. 2021.
+- Grupo 3. **Metodologias Ágeis: backlog do produto. Backlog do Produto**. 2017. Disponível em: [requisitos-2017-2-nubank.github.io/Nubank/siki/agil.html](https://requisitos-2017-2-nubank.github.io/Nubank/siki/agil.html). Acesso em 20 de agosto de 2021.
+
+- SEDANO, Todd; RALPH, Paul; PERAIRE, Cecile. **The Product Backlog**. 2019 Ieee/Acm 41St International Conference On Software Engineering (Icse), [S.L.], v. 1, n. 1, p. 1-11, maio 2019. IEEE. http://dx.doi.org/10.1109/icse.2019.00036. Disponível em: [ieeexplore.ieee.org/abstract/document/8812076](https://ieeexplore.ieee.org/abstract/document/8812076). Acesso em 20 de agosto de 2021.
