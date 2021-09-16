@@ -11,7 +11,7 @@
 ### Objetivo do documento
 
 <div align="justify">
-O objetivo do diagrama de atividades é mostrar o fluxo de atividades em um único processo. O diagrama mostra como uma atividade depende da outra. 
+O objetivo do diagrama de atividades é mostrar o fluxo de atividades em um único processo. O diagrama mostra como uma atividade depende da outra.
 <br>
 
 <div align="center"><img src="../../imagens/legenda-atividades.png" width="350" ></div><br>
@@ -22,12 +22,12 @@ O objetivo do diagrama de atividades é mostrar o fluxo de atividades em um úni
 
 <br></div>
 
-## Diagramas de atividades
+## Diagrama de atividades
+<br>
 
-
-<div align="center"><img src="../../imagens/diagrama_atividade_robo_garcom.png" width="600" ></<br>
+<div align="center"><img src="../../imagens/diagrama_atividade_robo_garcom.png" width="700" ></<br>
 <figcaption align='center'>
-    <b>Figura 1 - Realização de pedido.</b>
+    <b>Figura 1 - Diagrama de atividade de realização de pedido desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
 </figcaption>
 <br>
 
