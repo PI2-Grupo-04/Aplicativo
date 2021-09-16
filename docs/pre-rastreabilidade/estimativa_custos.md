@@ -88,4 +88,4 @@ Também é incluído na estimativa de custos o valor da integração entre softw
 
 
 ### Referências
-- Talent.com, <b>Salário no Brasil 2021</b>, disponível em: <a href="https://br.talent.com/salary">br.talent.com/salary</a>
+- Talent.com, <b>Salário no Brasil 2021</b>, disponível em: <a href="https://br.talent.com/salary">br.talent.com/salary</a>. Acesso em 15 de agosto de 2021.

@@ -25,7 +25,7 @@ O rich picture desenvolvido pela integrante da equipe Letícia Karla descreve os
 
 <div align="center"><img src="../../imagens/RichPicture.png" width="850" ></div><br>
 <figcaption align='center'>
-    <b>Figura 1 - Rich Picture do sistema robô garçom.</b>
+    <b>Figura 1 - Rich Picture do sistema robô garçom. Fonte: autores.</b>
 </figcaption>
 <br>
 

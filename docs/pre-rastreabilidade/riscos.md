@@ -40,7 +40,7 @@ Da mesma forma, a categorização da probabilidade do risco se dá em cinco nív
 
 <div align="center"><img src="../../imagens/EAR.png" width="550" ></div><br>
 <figcaption align='center'>
-    <b>Figura 1 - Estrutura analítica de riscos (EAR).</b>
+    <b>Figura 1 - Estrutura analítica de riscos (EAR).  Fonte: autores.</b>
 </figcaption>
 <br>
 
@@ -125,4 +125,4 @@ Da mesma forma, a categorização da probabilidade do risco se dá em cinco nív
 
 ### Referências
 
-- PMI. Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK). Quinta Edição. Newtown Square, Pennsylvania 19073-3299 USA: Project Management Institute, Inc., 2013.
+- PMI. **Um guia do conhecimento em gerenciamento de projetos (Guia PMBOK)**. Quinta Edição. Newtown Square, Pennsylvania 19073-3299. **USA: Project Management Institute**, Inc., 2013.
