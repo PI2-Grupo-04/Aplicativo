@@ -21,7 +21,7 @@ O diagrama de componentes em UML dá uma visão geral do sistema de software. Co
 ## Diagrama de componentes
 <br>
 
-<div align="center"><img src="../../imagens/diagrama_componetes.png" width="700" ></<br>
+<div align="center"><img src="../../imagens/diagrama_componentes.png" width="700" ></<br>
 <figcaption align='center'>
     <b>Figura 1 - Diagrama de componentes de realização de pedido desenvolvido para o projeto Robô Garçom. Fonte: autores.</b>
 </figcaption>
