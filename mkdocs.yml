@@ -39,7 +39,6 @@ nav:
       - Diagrama de atividades: modelagem/diagrama_atividades.md
       - Diagrama de classes: modelagem/diagrama_classes.md
       - Diagrama de componentes: modelagem/diagrama_componentes.md
-      - Diagrama de entidade e relacionamento: modelagem/diagrama_entidade_relacionamento.md
       - Diagrama de pacotes: modelagem/diagrama_pacotes.md
 
     - Manuais:

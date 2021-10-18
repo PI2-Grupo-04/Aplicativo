@@ -5,7 +5,7 @@
 |   Data   | Versão | Descrição | Autor(es)|
 | -------- | ------ | --------- | -------- |
 |17.10.2021|  0.1   |Criação e Edição do documento| Letícia Karla araújo |
-|18.10.2021|  0.2   |Refatora documento| Bruna Almeida |
+|18.10.2021|  0.2   |Corrige sistema operacional| Bruna Almeida |
 
 
 ### Objetivo do documento
