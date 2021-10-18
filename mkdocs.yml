@@ -10,21 +10,19 @@ nav:
       - Objetivos de produto: objetivos_produto.md
       - Objetivos de negócio: objetivos_negocios.md
       - Metodologia: metodologia.md
-
-    - Arquitetura do Software: arquitetura.md
-
-    - Arquitetura da informação:
-      - Heurísticas de Nielsen: prototipos/heuristicas.md
-      - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
-      - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
-
-    - Pré-rastreabilidade:
-      - Rich Pictures: pre-rastreabilidade/rich_picture.md
       - Legislação e normas: pre-rastreabilidade/legislacao.md
       - Gerenciamento de riscos e plano de contingência: pre-rastreabilidade/riscos.md
       - Estimativa de custos: pre-rastreabilidade/estimativa_custos.md
 
+    - Arquit. do Software: arquitetura.md
+
+    - Arquit. da informação:
+      - Heurísticas de Nielsen: prototipos/heuristicas.md
+      - Protótipo de baixa fidelidade: prototipos/prototipo_baixa.md
+      - Protótipo de alta fidelidade: prototipos/prototipo_alta.md
+
     - Requisitos:
+      - Rich Pictures: pre-rastreabilidade/rich_picture.md
       - Requisitos funcionais e não funcionais: elicitacao_requisitos/requisitos.md
       - MoScoW: elicitacao_requisitos/moscow.md
       - First Things First: elicitacao_requisitos/first_things.md
@@ -43,6 +41,12 @@ nav:
       - Diagrama de componentes: modelagem/diagrama_componentes.md
       - Diagrama de entidade e relacionamento: modelagem/diagrama_entidade_relacionamento.md
       - Diagrama de pacotes: modelagem/diagrama_pacotes.md
+
+    - Manuais:
+      - Manual de usuário: manual_usuario.md
+      - Manual de uso: manual_uso.md
+
+    - Testes: testes.md
 
 
 
