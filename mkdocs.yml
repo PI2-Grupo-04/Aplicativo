@@ -44,6 +44,7 @@ nav:
     - Manuais:
       - Manual de usuário: manual_usuario.md
       - Manual de uso: manual_uso.md
+      - Manual de instalação: manual_instalacao.md
 
     - Testes: testes.md
 
