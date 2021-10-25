@@ -10,7 +10,7 @@
 ### Objetivo do documento
 
 <div align="justify"></div>
-
+O manual de uso irá ajudar os usuários a entender o funcionamento e a navegabilidade entre telas do aplicativo, através de dois vídeos realizados com os protótipos de alta-fidelidade do cliente e do administrador.
 </br>
 
 ## Manual de uso - Cliente
