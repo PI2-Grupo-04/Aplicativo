@@ -1,4 +1,4 @@
-# <center>  Manual de Instalação
+# <center>  MANUAL DE INSTALAÇÃO
 
 #### Histórico de versão<br>
 
@@ -23,15 +23,6 @@
         docker-compose up
         ```
 
-* Manualmente
-    * Pré requisitos
-        -  [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
-        
-    * Iniciar a API
-        ```shell
-        yarn install
-        yarn start
-        ```
 
 ### Backend
 * Via Docker
@@ -44,14 +35,5 @@
         ```shell
         docker-compose build
         docker-compose up
-        ```
-* Manualmente
-    * Pré requisitos
-        -  [NPM](https://nodejs.org/en/download/current/)
-        
-    * Iniciar a API
-        ```shell
-        npm install
-        npm start
         ```
 
